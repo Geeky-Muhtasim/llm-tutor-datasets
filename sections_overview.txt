@@ -1,0 +1,63 @@
+Section 1: Introduction to Python
+
+Learning Objectives:
+    Understand the basics of Python programming language.
+    Familiarize with Python syntax and data types.
+    Learn how to write and execute Python scripts.
+
+Section 2: Variables and Data Types
+
+Learning Objectives:
+    Understand variables and their role in programming.
+    Learn about different data types in Python (integers, floats, strings, booleans).
+    Practice declaring variables and performing basic operations.
+
+Section 3: Control Flow and Decision Making
+
+Learning Objectives:
+    Learn about control flow structures such as if statements, elif, and else.
+    Understand the concept of boolean expressions.
+    Practice writing conditional statements to control program flow.
+
+Section 4: Loops
+
+Learning Objectives:
+    Understand different types of loops: for and while loops.
+    Learn how to use loops to iterate over data structures.
+    Practice implementing loops in Python programs.
+
+Section 5: Functions
+
+Learning Objectives:
+    Understand the concept of functions and their importance in modular programming.
+    Learn how to define and call functions in Python.
+    Practice writing functions to perform specific tasks.
+
+Section 6: Lists, Tuples, Sets and Dictionaries
+
+Learning Objectives:
+    Understand the differences between lists, tuples, and dictionaries.
+    Learn how to create, access, and manipulate elements in each data structure.
+    Practice using built-in functions and methods for working with lists, tuples, and dictionaries.
+
+
+Section 7: File Handling
+
+Learning Objectives:
+    Learn how to open, read, write, and close files in Python.
+    Understand different file modes and their purposes.
+    Practice file handling operations with text and binary files.
+
+Section 8: Exception Handling
+
+Learning Objectives:
+    Understand the concept of exceptions and how they affect program flow.
+    Learn how to handle exceptions using try, except, else, and finally blocks.
+    Practice implementing error handling in Python programs.
+
+Section 9: Introduction to Modules and Packages
+
+Learning Objectives:
+    Understand the concept of modules and how to import them in Python.
+    Learn about built-in and third-party modules and packages.
+    Practice using modules and packages to extend Python's functionality.
