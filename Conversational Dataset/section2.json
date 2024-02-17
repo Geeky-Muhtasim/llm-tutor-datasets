@@ -1,0 +1,101 @@
+[
+    {
+        "Student": "Q. What is a variable in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a factual question about variables in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Define what a variable is in Python.",
+        "Tutorbot": "A variable in Python is a reserved memory location used to store values. It is like a container that holds data."
+    },
+    {
+        "Student": "Q. How do you declare a variable in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a procedural question related to declaring variables in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Explain how to declare a variable in Python.",
+        "Tutorbot": "In Python, you declare a variable by simply assigning a value to it using the '=' operator. For example, 'x = 5' declares a variable 'x' and assigns the value 5 to it."
+    },
+    {
+        "Student": "Q. What are the basic data types in Python?",
+        "Thoughts of Tutorbot": "Tutorbot recognizes this as a question about data types in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "List and describe the basic data types in Python.",
+        "Tutorbot": "The basic data types in Python include integers, floats, strings, booleans, and complex numbers. Integers are whole numbers, floats are numbers with decimal points, strings are sequences of characters enclosed in quotes, booleans represent True or False values, and complex numbers consist of a real and imaginary part."
+    },
+    {
+        "Student": "Q. How do you check the data type of a variable in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a question about checking data types in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Explain how to check the data type of a variable in Python.",
+        "Tutorbot": "In Python, you can use the 'type()' function to check the data type of a variable. For example, 'type(x)' would return the data type of the variable 'x'."
+    },
+    {
+        "Student": "Q. What is type casting in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a question about type casting in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Define type casting in Python and explain its purpose.",
+        "Tutorbot": "Type casting in Python refers to the conversion of one data type to another. It allows you to change the data type of a variable, which can be useful for performing operations or comparisons. For example, converting an integer to a string using the 'str()' function."
+    },
+    {
+        "Student": "Q. What is a string in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a question about strings in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Define what a string is in Python.",
+        "Tutorbot": "A string in Python is a sequence of characters enclosed within either single quotes (' ') or double quotes (\" \"). Strings are immutable, meaning they cannot be changed once created."
+    },
+    {
+        "Student": "Q. How do you concatenate strings in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a question about string concatenation in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Explain how to concatenate strings in Python.",
+        "Tutorbot": "In Python, you can concatenate strings using the '+' operator. For example, 's1 + s2' would concatenate the strings stored in variables 's1' and 's2'. Alternatively, you can use the 'str.join()' method or f-strings for string interpolation."
+    },
+    {
+        "Student": "Q. What are the boolean data types in Python?",
+        "Thoughts of Tutorbot": "Tutorbot recognizes this as a question about boolean data types in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "List and describe boolean data types in Python.",
+        "Tutorbot": "Boolean data types in Python represent truth values, either True or False. They are often used in conditional statements and control flow structures to make decisions."
+    },
+    {
+        "Student": "Q. How do you declare a boolean variable in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a procedural question related to declaring boolean variables in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Explain how to declare a boolean variable in Python.",
+        "Tutorbot": "In Python, you can declare a boolean variable by assigning either 'True' or 'False' to it. For example, 'is_student = True' would declare a boolean variable 'is_student' with the value True."
+    },
+    {
+        "Student": "Q. What are the numeric data types in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a question about numeric data types in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "List and describe numeric data types in Python.",
+        "Tutorbot": "Numeric data types in Python include integers, floats, and complex numbers. Integers are whole numbers, floats are numbers with decimal points, and complex numbers consist of a real and imaginary part."
+    },
+    {
+        "Student": "Q. How do you declare an integer variable in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a procedural question related to declaring integer variables in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Explain how to declare an integer variable in Python.",
+        "Tutorbot": "In Python, you can declare an integer variable by simply assigning a whole number to it. For example, 'x = 5' declares an integer variable 'x' with the value 5."
+    }
+]
