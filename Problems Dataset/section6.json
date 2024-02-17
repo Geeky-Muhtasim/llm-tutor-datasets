@@ -214,5 +214,221 @@
             "Sets automatically eliminate duplicates, making them useful for set operations like intersection."
         ],
         "Solution": "The solution involves defining a function that takes two lists as input, converts them to sets, finds the intersection using set operations, then converts the result back to a list."
+    },
+    {
+        "Problem": "Write a Python program to find the sum of all elements in a list.",
+        "SubProblems": [
+            {
+                "Question": "How can you iterate through elements in a list?",
+                "Answer": "By using a loop to access each element.",
+                "Hint": "Consider using a loop to traverse the list and access each element.",
+                "Incorrect Response": "By using the sum() function.",
+                "Feedback": "While the sum() function exists, iterating through the list allows you to perform additional operations or logic."
+            },
+            {
+                "Question": "How can you initialize the sum of elements?",
+                "Answer": "By setting it to 0 before adding elements.",
+                "Hint": "Think about starting with a sum of 0 and adding elements to it.",
+                "Incorrect Response": "By directly adding elements without initializing the sum.",
+                "Feedback": "It's essential to initialize the sum before adding elements to avoid errors."
+            }
+        ],
+        "Facts": [
+            "The sum of all elements in a list can be found by iterating through the list and accumulating the sum.",
+            "Iterating through a list allows you to access each element individually."
+        ],
+        "Solution": "The solution involves defining a function that takes a list as input and returns the sum of its elements by iterating through the list and accumulating the sum."
+    },
+    {
+        "Problem": "Write a Python program to find the maximum element in a list.",
+        "SubProblems": [
+            {
+                "Question": "How can you find the maximum of two numbers?",
+                "Answer": "By using the built-in max() function.",
+                "Hint": "Consider using the max() function to find the maximum of two numbers.",
+                "Incorrect Response": "By comparing the numbers manually.",
+                "Feedback": "While possible, using the max() function provides a simpler and more efficient solution."
+            },
+            {
+                "Question": "How can you find the maximum element in a list?",
+                "Answer": "By using the built-in max() function or iterating through the list to find the maximum.",
+                "Hint": "Think about using the same approach as finding the maximum of two numbers but applied to a list.",
+                "Incorrect Response": "By adding all elements and dividing by the number of elements.",
+                "Feedback": "While this approach finds the average, it doesn't identify the maximum element in the list."
+            }
+        ],
+        "Facts": [
+            "The maximum element in a list can be found using the built-in max() function or by iterating through the list.",
+            "The max() function returns the largest item in an iterable or the largest of two or more arguments."
+        ],
+        "Solution": "The solution involves defining a function that takes a list as input and returns the maximum element using either the built-in max() function or iteration."
+    },
+    {
+        "Problem": "Write a Python program to find the minimum element in a list.",
+        "SubProblems": [
+            {
+                "Question": "How can you find the minimum of two numbers?",
+                "Answer": "By using the built-in min() function.",
+                "Hint": "Consider using the min() function to find the minimum of two numbers.",
+                "Incorrect Response": "By comparing the numbers manually.",
+                "Feedback": "While possible, using the min() function provides a simpler and more efficient solution."
+            },
+            {
+                "Question": "How can you find the minimum element in a list?",
+                "Answer": "By using the built-in min() function or iterating through the list to find the minimum.",
+                "Hint": "Think about using the same approach as finding the minimum of two numbers but applied to a list.",
+                "Incorrect Response": "By adding all elements and dividing by the number of elements.",
+                "Feedback": "While this approach finds the average, it doesn't identify the minimum element in the list."
+            }
+        ],
+        "Facts": [
+            "The minimum element in a list can be found using the built-in min() function or by iterating through the list.",
+            "The min() function returns the smallest item in an iterable or the smallest of two or more arguments."
+        ],
+        "Solution": "The solution involves defining a function that takes a list as input and returns the minimum element using either the built-in min() function or iteration."
+    },
+    {
+        "Problem": "Write a Python program to count the occurrences of a specific element in a list.",
+        "SubProblems": [
+            {
+                "Question": "How can you iterate through elements in a list?",
+                "Answer": "By using a loop to access each element.",
+                "Hint": "Consider using a loop to traverse the list and access each element.",
+                "Incorrect Response": "By using the count() method.",
+                "Feedback": "While the count() method exists, iterating through the list allows you to perform additional operations or logic."
+            },
+            {
+                "Question": "How can you count occurrences of a specific element?",
+                "Answer": "By comparing each element with the specific element and incrementing a counter.",
+                "Hint": "Think about how you can use conditional statements to check if an element matches the specific element.",
+                "Incorrect Response": "By using the sum() function.",
+                "Feedback": "The sum() function calculates the sum of elements, not the count of occurrences of a specific element."
+            }
+        ],
+        "Facts": [
+            "Iterating through elements in a list can be done using a loop.",
+            "Counting occurrences of a specific element involves comparing each element with the specific element and incrementing a counter."
+        ],
+        "Solution": "The solution involves defining a function that takes a list and a specific element as input and counts the occurrences of the element in the list by iterating through it."
+    },
+    {
+        "Problem": "Write a Python program to remove duplicates from a list.",
+        "SubProblems": [
+            {
+                "Question": "How can you maintain unique elements in a collection?",
+                "Answer": "By using a set data structure.",
+                "Hint": "Consider using a data structure that automatically maintains unique elements.",
+                "Incorrect Response": "By using a list and manually removing duplicates.",
+                "Feedback": "While possible, manually removing duplicates from a list can be less efficient compared to using a set."
+            },
+            {
+                "Question": "How can you convert a list to a set?",
+                "Answer": "By using the set() constructor.",
+                "Hint": "Think about how you can convert a list to a set using a built-in function.",
+                "Incorrect Response": "By using the list() constructor.",
+                "Feedback": "The list() constructor creates a list from an iterable, while set() creates a set."
+            }
+        ],
+        "Facts": [
+            "A set data structure automatically maintains unique elements, eliminating duplicates.",
+            "Converting a list to a set can be done using the set() constructor."
+        ],
+        "Solution": "The solution involves defining a function that takes a list as input, converts it to a set to remove duplicates, then converts it back to a list."
+    },
+    {
+        "Problem": "Write a Python program to sort elements in a list in ascending order.",
+        "SubProblems": [
+            {
+                "Question": "How can you sort elements in Python?",
+                "Answer": "By using the sorted() function.",
+                "Hint": "Consider using the sorted() function to sort elements.",
+                "Incorrect Response": "By using the sort() method of lists.",
+                "Feedback": "The sort() method sorts the list in place, while sorted() returns a new sorted list."
+            },
+            {
+                "Question": "How can you specify the sorting order?",
+                "Answer": "By using the reverse parameter of the sorted() function.",
+                "Hint": "Think about how you can specify the sorting order using parameters of the sorted() function.",
+                "Incorrect Response": "By using the reverse() method of lists.",
+                "Feedback": "The reverse() method reverses the order of elements, while the reverse parameter of sorted() specifies the sorting order."
+            }
+        ],
+        "Facts": [
+            "Elements in a list can be sorted in ascending order using the sorted() function.",
+            "The sorted() function returns a new sorted list without modifying the original list."
+        ],
+        "Solution": "The solution involves defining a function that takes a list as input and returns a new sorted list in ascending order using the sorted() function."
+    },
+    {
+        "Problem": "Write a Python program to find the second largest element in a list.",
+        "SubProblems": [
+            {
+                "Question": "How can you find the maximum of a list?",
+                "Answer": "By using the built-in max() function.",
+                "Hint": "Consider using the max() function to find the maximum element in a list.",
+                "Incorrect Response": "By iterating through the list and comparing elements manually.",
+                "Feedback": "While possible, using the max() function provides a simpler and more efficient solution."
+            },
+            {
+                "Question": "How can you find the second largest element?",
+                "Answer": "By removing the maximum element and finding the maximum of the remaining list.",
+                "Hint": "Think about how you can use the max() function after removing the maximum element from the list.",
+                "Incorrect Response": "By finding the minimum element after removing the maximum element.",
+                "Feedback": "Finding the minimum element doesn't guarantee that it's the second largest; you need to find the maximum from the remaining list."
+            }
+        ],
+        "Facts": [
+            "The second largest element in a list can be found by removing the maximum element and finding the maximum of the remaining list.",
+            "The max() function returns the largest item in an iterable or the largest of two or more arguments."
+        ],
+        "Solution": "The solution involves defining a function that takes a list as input and finds the second largest element by removing the maximum element and finding the maximum of the remaining list."
+    },
+    {
+        "Problem": "Write a Python program to find the union of two lists.",
+        "SubProblems": [
+            {
+                "Question": "How can you combine elements from two lists?",
+                "Answer": "By using the union operator (|) or the union() method of sets.",
+                "Hint": "Consider using set operations to combine elements from two lists.",
+                "Incorrect Response": "By using the append() method.",
+                "Feedback": "The append() method adds elements to a list, but it doesn't perform set union."
+            },
+            {
+                "Question": "How can you handle duplicate elements in the union?",
+                "Answer": "By using a set to automatically eliminate duplicates.",
+                "Hint": "Think about how sets automatically maintain unique elements.",
+                "Incorrect Response": "By manually removing duplicates from the combined list.",
+                "Feedback": "While possible, manually removing duplicates can be less efficient compared to using a set."
+            }
+        ],
+        "Facts": [
+            "The union of two lists contains all unique elements from both lists.",
+            "Sets automatically eliminate duplicates, making them useful for set operations like union."
+        ],
+        "Solution": "The solution involves defining a function that takes two lists as input, converts them to sets, finds the union using set operations, then converts the result back to a list."
+    },
+    {
+        "Problem": "Write a Python program to find the intersection of two lists.",
+        "SubProblems": [
+            {
+                "Question": "How can you find common elements between two lists?",
+                "Answer": "By using the intersection operator (&) or the intersection() method of sets.",
+                "Hint": "Consider using set operations to find common elements between two lists.",
+                "Incorrect Response": "By using the append() method.",
+                "Feedback": "The append() method adds elements to a list, but it doesn't perform set intersection."
+            },
+            {
+                "Question": "How can you handle duplicate elements in the intersection?",
+                "Answer": "By using a set to automatically eliminate duplicates.",
+                "Hint": "Think about how sets automatically maintain unique elements.",
+                "Incorrect Response": "By manually removing duplicates from the combined list.",
+                "Feedback": "While possible, manually removing duplicates can be less efficient compared to using a set."
+            }
+        ],
+        "Facts": [
+            "The intersection of two lists contains elements that are common to both lists.",
+            "Sets automatically eliminate duplicates, making them useful for set operations like intersection."
+        ],
+        "Solution": "The solution involves defining a function that takes two lists as input, converts them to sets, finds the intersection using set operations, then converts the result back to a list."
     }
 ]
