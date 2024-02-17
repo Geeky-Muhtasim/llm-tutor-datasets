@@ -1,0 +1,218 @@
+[
+    {
+        "Problem": "Write a Python function to calculate the area of a rectangle given its length and width.",
+        "SubProblems": [
+            {
+                "Question": "How can you calculate the area of a rectangle?",
+                "Answer": "By multiplying its length by its width.",
+                "Hint": "Consider the formula for calculating the area of a rectangle.",
+                "Incorrect Response": "By adding its length and width.",
+                "Feedback": "The area of a rectangle is found by multiplying its length by its width, not by adding them."
+            },
+            {
+                "Question": "How can you define a function in Python?",
+                "Answer": "By using the 'def' keyword followed by the function name and parameters.",
+                "Hint": "Think about the syntax used to define a function in Python.",
+                "Incorrect Response": "By using the 'function' keyword followed by the function name and parameters.",
+                "Feedback": "In Python, functions are defined using the 'def' keyword, not 'function'."
+            }
+        ],
+        "Facts": [
+            "The area of a rectangle is calculated by multiplying its length by its width.",
+            "Functions in Python are defined using the 'def' keyword followed by the function name and parameters."
+        ],
+        "Solution": "The solution involves defining a function that takes length and width as parameters and returns the calculated area."
+    },
+    {
+        "Problem": "Write a Python function to check if a given number is prime.",
+        "SubProblems": [
+            {
+                "Question": "What are the conditions for a number to be prime?",
+                "Answer": "It should be greater than 1 and not divisible by any number other than 1 and itself.",
+                "Hint": "Consider the conditions for a number to have exactly two divisors.",
+                "Incorrect Response": "It should be greater than 1 and divisible by 2.",
+                "Feedback": "A prime number should not be divisible by any number other than 1 and itself."
+            },
+            {
+                "Question": "How can you efficiently check for divisibility by other numbers?",
+                "Answer": "By using a loop to check divisibility up to the square root of the number.",
+                "Hint": "Think about limiting the range of numbers to check for divisibility.",
+                "Incorrect Response": "By checking divisibility up to the number itself.",
+                "Feedback": "Checking divisibility up to the number itself is less efficient compared to limiting it to the square root of the number."
+            }
+        ],
+        "Facts": [
+            "A prime number is greater than 1 and not divisible by any number other than 1 and itself.",
+            "Efficiently checking for divisibility involves limiting the range of numbers to check."
+        ],
+        "Solution": "The solution involves defining a function that takes a number as input and checks if it's prime by iterating through potential divisors up to the square root of the number."
+    },
+    {
+        "Problem": "Write a Python function to calculate the factorial of a given number.",
+        "SubProblems": [
+            {
+                "Question": "How can you calculate the factorial of a number?",
+                "Answer": "By multiplying all positive integers up to the given number.",
+                "Hint": "Consider how you can multiply all positive integers up to the given number.",
+                "Incorrect Response": "By adding all positive integers up to the given number.",
+                "Feedback": "Factorial involves multiplication, not addition, of positive integers."
+            },
+            {
+                "Question": "How can you handle the case when the input number is 0?",
+                "Answer": "By returning 1, as the factorial of 0 is defined as 1.",
+                "Hint": "Think about the special case of 0 and its factorial value.",
+                "Incorrect Response": "By returning 0, as 0 factorial is 0.",
+                "Feedback": "The factorial of 0 is defined as 1, not 0."
+            }
+        ],
+        "Facts": [
+            "The factorial of a non-negative integer n is the product of all positive integers less than or equal to n.",
+            "The factorial of 0 is defined as 1."
+        ],
+        "Solution": "The solution involves defining a function that takes a number as input and calculates its factorial by multiplying all positive integers up to that number."
+    },
+    {
+        "Problem": "Write a Python function to find the GCD (Greatest Common Divisor) of two numbers.",
+        "SubProblems": [
+            {
+                "Question": "What is the definition of the GCD?",
+                "Answer": "The largest positive integer that divides both numbers without leaving a remainder.",
+                "Hint": "Consider the conditions for a number to be the GCD of two numbers.",
+                "Incorrect Response": "The product of the two numbers.",
+                "Feedback": "The GCD is a divisor of both numbers, not their product."
+            },
+            {
+                "Question": "How can you efficiently find the GCD of two numbers?",
+                "Answer": "By using the Euclidean algorithm.",
+                "Hint": "Think about how you can repeatedly apply the Euclidean algorithm to find the GCD.",
+                "Incorrect Response": "By checking divisibility by all integers up to the smaller number.",
+                "Feedback": "While possible, checking divisibility by all integers is less efficient compared to using a specific algorithm like the Euclidean algorithm."
+            }
+        ],
+        "Facts": [
+            "The GCD of two numbers is the largest positive integer that divides both numbers without leaving a remainder.",
+            "The Euclidean algorithm is an efficient method for finding the GCD of two numbers."
+        ],
+        "Solution": "The solution involves defining a function that takes two numbers as input and uses the Euclidean algorithm to find their GCD efficiently."
+    },
+    {
+        "Problem": "Write a Python function to reverse a given string.",
+        "SubProblems": [
+            {
+                "Question": "How can you reverse a string?",
+                "Answer": "By slicing the string with a step of -1.",
+                "Hint": "Consider how you can use string slicing to reverse the order of characters.",
+                "Incorrect Response": "By using the reverse() method of strings.",
+                "Feedback": "While the reverse() method exists for lists, strings do not have a built-in reverse() method; string slicing is a common approach to reverse strings."
+            },
+            {
+                "Question": "How can you efficiently handle empty strings or single-character strings?",
+                "Answer": "By returning the input string directly.",
+                "Hint": "Think about special cases where reversing is unnecessary.",
+                "Incorrect Response": "By throwing an error.",
+                "Feedback": "Reversing is unnecessary for empty strings or single-character strings, so you can return the input string directly."
+            }
+        ],
+        "Facts": [
+            "String slicing can be used to reverse the order of characters in a string.",
+            "Special cases, such as empty strings or single-character strings, may not require reversing."
+        ],
+        "Solution": "The solution involves defining a function that takes a string as input and returns its reverse using string slicing, handling special cases efficiently."
+    },
+    {
+        "Problem": "Write a Python function to count the occurrences of a given character in a string.",
+        "SubProblems": [
+            {
+                "Question": "How can you iterate through characters in a string?",
+                "Answer": "By using a loop to iterate through each character.",
+                "Hint": "Consider using a loop to access each character of the string.",
+                "Incorrect Response": "By using the split() method.",
+                "Feedback": "The split() method is used to split a string into a list of substrings, not to iterate through characters."
+            },
+            {
+                "Question": "How can you count occurrences of a specific character?",
+                "Answer": "By comparing each character with the given character and incrementing a counter.",
+                "Hint": "Think about how you can use conditional statements to check if a character matches the given character.",
+                "Incorrect Response": "By using the count() method of strings.",
+                "Feedback": "While the count() method exists, it counts occurrences of substrings, not individual characters."
+            }
+        ],
+        "Facts": [
+            "Iterating through characters in a string can be done using a loop.",
+            "Counting occurrences of a specific character involves comparing each character with the given character."
+        ],
+        "Solution": "The solution involves defining a function that takes a string and a character as input and counts the occurrences of the character in the string using a loop."
+    },
+    {
+        "Problem": "Write a Python function to check if a given string is a palindrome.",
+        "SubProblems": [
+            {
+                "Question": "What is the definition of a palindrome?",
+                "Answer": "A string that reads the same forward and backward.",
+                "Hint": "Consider how you can check if a string is equal to its reverse.",
+                "Incorrect Response": "A string with no spaces.",
+                "Feedback": "A palindrome is defined by its property of reading the same forward and backward, not by the absence of spaces."
+            },
+            {
+                "Question": "How can you efficiently check if a string is equal to its reverse?",
+                "Answer": "By comparing the string with its reverse directly.",
+                "Hint": "Think about how you can reverse the string and compare it with the original.",
+                "Incorrect Response": "By checking if the string is a substring of its reverse.",
+                "Feedback": "Checking if the string is a substring of its reverse does not guarantee that it's a palindrome."
+            }
+        ],
+        "Facts": [
+            "A palindrome is a string that reads the same forward and backward.",
+            "Efficiently checking for palindromes involves comparing the string with its reverse directly."
+        ],
+        "Solution": "The solution involves defining a function that takes a string as input and checks if it's a palindrome by comparing it with its reverse."
+    },
+    {
+        "Problem": "Write a Python function to find the average of a list of numbers.",
+        "SubProblems": [
+            {
+                "Question": "How can you calculate the sum of numbers in a list?",
+                "Answer": "By using a loop to iterate through the list and accumulate the sum.",
+                "Hint": "Consider how you can use a loop to add each number to a sum variable.",
+                "Incorrect Response": "By using the sum() function.",
+                "Feedback": "While the sum() function exists, iterating through the list allows you to handle additional logic, such as filtering or transformation."
+            },
+            {
+                "Question": "How can you calculate the average from the sum of numbers?",
+                "Answer": "By dividing the sum by the number of elements in the list.",
+                "Hint": "Think about how you can use the length of the list to calculate the average.",
+                "Incorrect Response": "By multiplying the sum by the number of elements in the list.",
+                "Feedback": "To find the average, you need to divide the sum by the number of elements, not multiply it."
+            }
+        ],
+        "Facts": [
+            "The average of a list of numbers is found by dividing the sum of numbers by the number of elements.",
+            "Iterating through a list allows you to perform additional logic beyond basic operations like summing."
+        ],
+        "Solution": "The solution involves defining a function that takes a list of numbers as input and returns their average by calculating the sum and dividing it by the number of elements."
+    },
+    {
+        "Problem": "Write a Python function to find the maximum of a list of numbers.",
+        "SubProblems": [
+            {
+                "Question": "How can you find the maximum of two numbers?",
+                "Answer": "By using the built-in max() function.",
+                "Hint": "Consider using the max() function to find the maximum of two numbers.",
+                "Incorrect Response": "By comparing the numbers manually.",
+                "Feedback": "While possible, using the max() function provides a simpler and more efficient solution."
+            },
+            {
+                "Question": "How can you find the maximum of a list of numbers?",
+                "Answer": "By using the built-in max() function or iterating through the list to find the maximum.",
+                "Hint": "Think about using the same approach as finding the maximum of two numbers but applied to a list.",
+                "Incorrect Response": "By adding all numbers and dividing by the number of elements.",
+                "Feedback": "While this approach finds the average, it doesn't identify the maximum number in the list."
+            }
+        ],
+        "Facts": [
+            "The maximum of a list of numbers can be found using the built-in max() function or by iterating through the list.",
+            "The max() function returns the largest item in an iterable or the largest of two or more arguments."
+        ],
+        "Solution": "The solution involves defining a function that takes a list of numbers as input and returns the maximum number using either the built-in max() function or iteration."
+    }
+]
