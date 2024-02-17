@@ -1,0 +1,218 @@
+[
+    {
+        "Problem": "Write a Python program to read the contents of a text file.",
+        "SubProblems": [
+            {
+                "Question": "How can you open a file in Python?",
+                "Answer": "By using the open() function.",
+                "Hint": "Consider the built-in function used to open files for reading or writing.",
+                "Incorrect Response": "By using the read() function.",
+                "Feedback": "The read() function is used to read data from an already opened file; to open a file, use the open() function."
+            },
+            {
+                "Question": "How can you efficiently read the entire contents of a file?",
+                "Answer": "By using the read() method.",
+                "Hint": "Think about the method used to read the entire contents of a file object.",
+                "Incorrect Response": "By using the readline() method.",
+                "Feedback": "The readline() method reads a single line from a file; to read the entire contents, use the read() method."
+            }
+        ],
+        "Facts": [
+            "You can open files in Python using the open() function.",
+            "The read() method is used to read the entire contents of a file."
+        ],
+        "Solution": "The solution involves defining a function that takes the filename as input, opens the file, reads its contents using the read() method, and returns the content as a string."
+    },
+    {
+        "Problem": "Write a Python program to count the number of lines in a text file.",
+        "SubProblems": [
+            {
+                "Question": "How can you iterate through lines in a file?",
+                "Answer": "By using a loop to iterate over each line.",
+                "Hint": "Consider how you can traverse through lines of text in a file.",
+                "Incorrect Response": "By using the readlines() method.",
+                "Feedback": "The readlines() method reads all lines from a file into a list; to iterate through lines, use a loop."
+            },
+            {
+                "Question": "How can you count the number of lines in a file?",
+                "Answer": "By incrementing a counter for each line read.",
+                "Hint": "Think about how you can use a variable to keep track of the number of lines.",
+                "Incorrect Response": "By using the len() function on the file object.",
+                "Feedback": "The len() function returns the number of elements in an iterable; to count lines, you need to iterate through them and increment a counter."
+            }
+        ],
+        "Facts": [
+            "You can iterate through lines in a file using a loop.",
+            "Counting the number of lines involves incrementing a counter for each line read."
+        ],
+        "Solution": "The solution involves defining a function that takes the filename as input, opens the file, iterates through its lines using a loop, counts the lines, and returns the count."
+    },
+    {
+        "Problem": "Write a Python program to copy the contents of one text file to another.",
+        "SubProblems": [
+            {
+                "Question": "How can you read the contents of a file?",
+                "Answer": "By using the read() method.",
+                "Hint": "Consider the method used to read the entire contents of a file object.",
+                "Incorrect Response": "By using the open() function.",
+                "Feedback": "The open() function is used to open files; to read their contents, use the read() method."
+            },
+            {
+                "Question": "How can you write contents to a file?",
+                "Answer": "By using the write() method.",
+                "Hint": "Think about the method used to write data to a file object.",
+                "Incorrect Response": "By using the read() method.",
+                "Feedback": "The read() method reads data from a file; to write data to a file, use the write() method."
+            }
+        ],
+        "Facts": [
+            "You can read the contents of a file using the read() method.",
+            "Writing contents to a file involves using the write() method."
+        ],
+        "Solution": "The solution involves defining a function that takes two filenames as input, reads the contents from the first file using the read() method, and writes them to the second file using the write() method."
+    },
+    {
+        "Problem": "Write a Python program to append text to a file and create the file if it does not exist.",
+        "SubProblems": [
+            {
+                "Question": "How can you open a file in append mode?",
+                "Answer": "By using the 'a' mode in the open() function.",
+                "Hint": "Consider the mode used to open a file for appending data.",
+                "Incorrect Response": "By using the 'r' mode.",
+                "Feedback": "The 'r' mode is used to open files for reading; to open a file for appending, use the 'a' mode."
+            },
+            {
+                "Question": "How can you write data to a file in append mode?",
+                "Answer": "By using the write() method.",
+                "Hint": "Think about the method used to add data to the end of a file.",
+                "Incorrect Response": "By using the read() method.",
+                "Feedback": "The read() method reads data from a file; to add data to the end of a file, use the write() method."
+            }
+        ],
+        "Facts": [
+            "You can open a file in append mode using the 'a' mode in the open() function.",
+            "Writing data to a file in append mode involves using the write() method."
+        ],
+        "Solution": "The solution involves defining a function that takes a filename and text as input, opens the file in append mode using the 'a' mode, and writes the text to the file using the write() method."
+    },
+    {
+        "Problem": "Write a Python program to read a CSV file and display its contents.",
+        "SubProblems": [
+            {
+                "Question": "How can you read a CSV file in Python?",
+                "Answer": "By using the csv module.",
+                "Hint": "Consider the module specifically designed for working with CSV files.",
+                "Incorrect Response": "By using the open() function.",
+                "Feedback": "While the open() function is used to open files, for CSV files, it's more convenient to use the csv module."
+            },
+            {
+                "Question": "How can you display the contents of a CSV file?",
+                "Answer": "By iterating through rows and printing each row.",
+                "Hint": "Think about how you can access data stored in a CSV file and display it.",
+                "Incorrect Response": "By using the read() method.",
+                "Feedback": "The read() method reads data from a file as a whole; to display CSV contents, iterate through rows and print them."
+            }
+        ],
+        "Facts": [
+            "You can read CSV files in Python using the csv module.",
+            "Displaying CSV contents involves iterating through rows and printing each row."
+        ],
+        "Solution": "The solution involves defining a function that takes a filename as input, reads the CSV file using the csv module, and displays its contents by iterating through rows and printing them."
+    },
+    {
+        "Problem": "Write a Python program to write data to a CSV file.",
+        "SubProblems": [
+            {
+                "Question": "How can you write data to a CSV file in Python?",
+                "Answer": "By using the csv module.",
+                "Hint": "Consider the module specifically designed for working with CSV files.",
+                "Incorrect Response": "By using the write() method.",
+                "Feedback": "The write() method is used for general file writing; for CSV files, it's more convenient to use the csv module."
+            },
+            {
+                "Question": "How can you specify the format of data written to a CSV file?",
+                "Answer": "By using a CSV writer object and specifying delimiter and formatting options.",
+                "Hint": "Think about the object used to write structured data to CSV files.",
+                "Incorrect Response": "By using the print() function.",
+                "Feedback": "The print() function is used for displaying data; to write structured data to a CSV file, use a CSV writer object."
+            }
+        ],
+        "Facts": [
+            "You can write data to a CSV file in Python using the csv module.",
+            "Specifying the format of data involves using a CSV writer object with delimiter and formatting options."
+        ],
+        "Solution": "The solution involves defining a function that takes a filename and data as input, writes the data to a CSV file using the csv module, and specifies the format using a CSV writer object."
+    },
+    {
+        "Problem": "Write a Python program to read a JSON file and display its contents.",
+        "SubProblems": [
+            {
+                "Question": "How can you read a JSON file in Python?",
+                "Answer": "By using the json module.",
+                "Hint": "Consider the module specifically designed for working with JSON data.",
+                "Incorrect Response": "By using the open() function.",
+                "Feedback": "While the open() function is used to open files, for JSON files, it's more convenient to use the json module."
+            },
+            {
+                "Question": "How can you display the contents of a JSON file?",
+                "Answer": "By accessing JSON data and printing it.",
+                "Hint": "Think about how you can access and display structured data stored in a JSON file.",
+                "Incorrect Response": "By using the read() method.",
+                "Feedback": "The read() method reads data from a file as a whole; to display JSON contents, access the data and print it."
+            }
+        ],
+        "Facts": [
+            "You can read JSON files in Python using the json module.",
+            "Displaying JSON contents involves accessing the data and printing it."
+        ],
+        "Solution": "The solution involves defining a function that takes a filename as input, reads the JSON file using the json module, and displays its contents by accessing the data and printing it."
+    },
+    {
+        "Problem": "Write a Python program to write data to a JSON file.",
+        "SubProblems": [
+            {
+                "Question": "How can you write data to a JSON file in Python?",
+                "Answer": "By using the json module.",
+                "Hint": "Consider the module specifically designed for working with JSON data.",
+                "Incorrect Response": "By using the write() method.",
+                "Feedback": "The write() method is used for general file writing; for JSON files, it's more convenient to use the json module."
+            },
+            {
+                "Question": "How can you specify the format of data written to a JSON file?",
+                "Answer": "By using the json.dump() function with formatting options.",
+                "Hint": "Think about the function used to serialize data to a JSON file.",
+                "Incorrect Response": "By using the print() function.",
+                "Feedback": "The print() function is used for displaying data; to serialize data to a JSON file, use the json.dump() function."
+            }
+        ],
+        "Facts": [
+            "You can write data to a JSON file in Python using the json module.",
+            "Specifying the format of data involves using the json.dump() function with formatting options."
+        ],
+        "Solution": "The solution involves defining a function that takes a filename and data as input, writes the data to a JSON file using the json module, and specifies the format using the json.dump() function."
+    },
+    {
+        "Problem": "Write a Python program to read a binary file and display its contents.",
+        "SubProblems": [
+            {
+                "Question": "How can you read a binary file in Python?",
+                "Answer": "By using the 'rb' mode in the open() function.",
+                "Hint": "Consider the mode used to open a file in binary read mode.",
+                "Incorrect Response": "By using the read() method.",
+                "Feedback": "The read() method reads data from a file; to open a binary file, use the 'rb' mode."
+            },
+            {
+                "Question": "How can you display the contents of a binary file?",
+                "Answer": "By accessing binary data and displaying it.",
+                "Hint": "Think about how you can access and display raw binary data stored in a file.",
+                "Incorrect Response": "By using the read() method.",
+                "Feedback": "The read() method reads data from a file as a whole; to display binary contents, access the data and print it."
+            }
+        ],
+        "Facts": [
+            "You can read binary files in Python using the 'rb' mode in the open() function.",
+            "Displaying binary contents involves accessing the data and displaying it."
+        ],
+        "Solution": "The solution involves defining a function that takes a filename as input, opens the binary file using the 'rb' mode, reads its contents, and displays them by accessing the data and printing it."
+    }
+]
