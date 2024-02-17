@@ -1,0 +1,218 @@
+[
+    {
+        "Problem": "Write a Python program to print the numbers from 1 to 10.",
+        "SubProblems": [
+            {
+                "Question": "How can you iterate through numbers from 1 to 10?",
+                "Answer": "Using a for loop with a range() function.",
+                "Hint": "Consider using the range() function within a for loop.",
+                "Incorrect Response": "By manually listing each number from 1 to 10.",
+                "Feedback": "Using a for loop with range() provides a more concise and efficient way to iterate through a sequence of numbers."
+            },
+            {
+                "Question": "How can you print numbers on the same line?",
+                "Answer": "By specifying the 'end' parameter of the print() function.",
+                "Hint": "Think about how you can change the default behavior of the print() function to print on the same line.",
+                "Incorrect Response": "By using multiple print() statements for each number.",
+                "Feedback": "Using the 'end' parameter of the print() function allows you to control the behavior of printing."
+            }
+        ],
+        "Facts": [
+            "The range() function generates a sequence of numbers.",
+            "The print() function in Python outputs text to the console."
+        ],
+        "Solution": "The solution involves using a for loop with the range() function to iterate from 1 to 10 and print each number."
+    },
+    {
+        "Problem": "Write a Python program to calculate the sum of numbers from 1 to 100.",
+        "SubProblems": [
+            {
+                "Question": "How can you initialize the sum of numbers?",
+                "Answer": "By setting it to 0 before adding numbers.",
+                "Hint": "Consider starting with a sum of 0 before adding numbers.",
+                "Incorrect Response": "By directly adding the numbers without initializing the sum.",
+                "Feedback": "It's essential to initialize the sum before adding numbers to avoid errors."
+            },
+            {
+                "Question": "How can you efficiently calculate the sum of numbers from 1 to 100?",
+                "Answer": "By using the formula for the sum of an arithmetic series.",
+                "Hint": "Think about applying the formula for the sum of an arithmetic series.",
+                "Incorrect Response": "By manually adding each number from 1 to 100.",
+                "Feedback": "While possible, manually adding each number can be time-consuming and prone to errors compared to using a formula."
+            }
+        ],
+        "Facts": [
+            "The sum of an arithmetic series can be calculated using a formula.",
+            "The formula for the sum of an arithmetic series is (n/2) * (first term + last term), where n is the number of terms."
+        ],
+        "Solution": "The solution involves applying the formula for the sum of an arithmetic series to calculate the sum of numbers from 1 to 100."
+    },
+    {
+        "Problem": "Write a Python program to find the factorial of a given number.",
+        "SubProblems": [
+            {
+                "Question": "How can you calculate the factorial of a number?",
+                "Answer": "By multiplying all positive integers up to the given number.",
+                "Hint": "Consider how you can multiply all positive integers up to the given number.",
+                "Incorrect Response": "By adding all positive integers up to the given number.",
+                "Feedback": "Factorial involves multiplication, not addition, of positive integers."
+            },
+            {
+                "Question": "How can you handle the case when the input number is 0?",
+                "Answer": "By returning 1, as the factorial of 0 is defined as 1.",
+                "Hint": "Think about the special case of 0 and its factorial value.",
+                "Incorrect Response": "By returning 0, as 0 factorial is 0.",
+                "Feedback": "The factorial of 0 is defined as 1, not 0."
+            }
+        ],
+        "Facts": [
+            "The factorial of a non-negative integer n is the product of all positive integers less than or equal to n.",
+            "The factorial of 0 is defined as 1."
+        ],
+        "Solution": "The solution involves multiplying all positive integers up to the given number to find its factorial."
+    },
+    {
+        "Problem": "Write a Python program to generate the Fibonacci sequence up to n terms.",
+        "SubProblems": [
+            {
+                "Question": "How can you generate the Fibonacci sequence?",
+                "Answer": "By starting with two initial terms and generating subsequent terms using the sum of the previous two terms.",
+                "Hint": "Consider how you can generate each term of the Fibonacci sequence based on the previous terms.",
+                "Incorrect Response": "By multiplying each term by a constant factor.",
+                "Feedback": "The Fibonacci sequence is generated by adding the previous two terms, not by multiplying."
+            },
+            {
+                "Question": "How can you efficiently generate the Fibonacci sequence up to n terms?",
+                "Answer": "By using a loop to generate each term iteratively.",
+                "Hint": "Think about how you can use iteration to generate each term of the sequence.",
+                "Incorrect Response": "By calculating each term recursively.",
+                "Feedback": "While recursion is possible, it can be less efficient compared to iteration for generating sequences."
+            }
+        ],
+        "Facts": [
+            "The Fibonacci sequence is a series of numbers where each number is the sum of the two preceding ones.",
+            "The Fibonacci sequence starts with 0 and 1 as the initial terms."
+        ],
+        "Solution": "The solution involves using a loop to generate each term of the Fibonacci sequence up to n terms by adding the previous two terms."
+    },
+    {
+        "Problem": "Write a Python program to find the sum of digits of a given number.",
+        "SubProblems": [
+            {
+                "Question": "How can you extract individual digits from a number?",
+                "Answer": "By using the modulus operator (%) and integer division.",
+                "Hint": "Consider using the modulus operator (%) to extract the last digit and integer division (//) to remove it.",
+                "Incorrect Response": "By converting the number to a string and iterating through its characters.",
+                "Feedback": "While possible, converting to a string and iterating through characters is less efficient compared to using mathematical operations."
+            },
+            {
+                "Question": "How can you initialize the sum of digits?",
+                "Answer": "By setting it to 0 before adding individual digits.",
+                "Hint": "Consider starting with a sum of 0 before adding individual digits.",
+                "Incorrect Response": "By directly adding the digits without initializing the sum.",
+                "Feedback": "It's essential to initialize the sum before adding individual digits to avoid errors."
+            }
+        ],
+        "Facts": [
+            "The sum of digits of a number can be found by extracting individual digits and adding them together.",
+            "The modulus operator (%) can be used to extract the last digit of a number."
+        ],
+        "Solution": "The solution involves extracting individual digits from the number using the modulus operator (%) and integer division, adding them together to find the sum."
+    },
+    {
+        "Problem": "Write a Python program to check if a given number is a palindrome.",
+        "SubProblems": [
+            {
+                "Question": "How can you reverse a number?",
+                "Answer": "By using the modulus operator (%) and integer division.",
+                "Hint": "Consider using the modulus operator (%) to extract the last digit and integer division (//) to remove it.",
+                "Incorrect Response": "By using string slicing to reverse the number.",
+                "Feedback": "While possible, using string slicing can be less efficient compared to using mathematical operations."
+            },
+            {
+                "Question": "How can you compare the original number with its reverse?",
+                "Answer": "By checking if they are equal.",
+                "Hint": "Think about how you can use a comparison operator to check for equality.",
+                "Incorrect Response": "By checking if they are different.",
+                "Feedback": "To determine if a number is a palindrome, you need to check if it's equal to its reverse, not different."
+            }
+        ],
+        "Facts": [
+            "A palindrome is a number that reads the same forward and backward.",
+            "The modulus operator (%) can be used to extract the last digit of a number."
+        ],
+        "Solution": "The solution involves reversing the number using the modulus operator (%) and integer division, then comparing it with the original number to check if it's a palindrome."
+    },
+    {
+        "Problem": "Write a Python program to print the multiplication table of a given number.",
+        "SubProblems": [
+            {
+                "Question": "How can you generate the multiplication table?",
+                "Answer": "By multiplying the given number with each integer from 1 to 10.",
+                "Hint": "Consider using a loop to iterate through integers from 1 to 10 and multiplying them with the given number.",
+                "Incorrect Response": "By adding the given number to itself multiple times.",
+                "Feedback": "While adding the given number to itself is one way to generate the table, it's more efficient to use multiplication."
+            },
+            {
+                "Question": "How can you format the output to display the table neatly?",
+                "Answer": "By using string formatting or the print() function's formatting options.",
+                "Hint": "Think about how you can use formatting options to align columns in the table.",
+                "Incorrect Response": "By printing each multiplication result on a separate line.",
+                "Feedback": "Printing each result on a separate line can make the table harder to read; formatting options can improve readability."
+            }
+        ],
+        "Facts": [
+            "The multiplication table shows the results of multiplying a given number with integers from 1 to 10.",
+            "String formatting allows you to control the appearance of text in Python output."
+        ],
+        "Solution": "The solution involves using a loop to iterate through integers from 1 to 10 and multiplying them with the given number, then formatting the output to display the table neatly."
+    },
+    {
+        "Problem": "Write a Python program to find the GCD (Greatest Common Divisor) of two numbers.",
+        "SubProblems": [
+            {
+                "Question": "What is the definition of the GCD?",
+                "Answer": "The largest positive integer that divides both numbers without leaving a remainder.",
+                "Hint": "Consider the conditions for a number to be the GCD of two numbers.",
+                "Incorrect Response": "The product of the two numbers.",
+                "Feedback": "The GCD is a divisor of both numbers, not their product."
+            },
+            {
+                "Question": "How can you efficiently find the GCD of two numbers?",
+                "Answer": "By using the Euclidean algorithm.",
+                "Hint": "Think about how you can repeatedly apply the Euclidean algorithm to find the GCD.",
+                "Incorrect Response": "By checking divisibility by all integers up to the smaller number.",
+                "Feedback": "While possible, checking divisibility by all integers is less efficient compared to using a specific algorithm like the Euclidean algorithm."
+            }
+        ],
+        "Facts": [
+            "The GCD of two numbers is the largest positive integer that divides both numbers without leaving a remainder.",
+            "The Euclidean algorithm is an efficient method for finding the GCD of two numbers."
+        ],
+        "Solution": "The solution involves using the Euclidean algorithm to find the GCD of two numbers efficiently."
+    },
+    {
+        "Problem": "Write a Python program to check if a given number is a perfect number.",
+        "SubProblems": [
+            {
+                "Question": "What is the definition of a perfect number?",
+                "Answer": "A number equal to the sum of its proper divisors.",
+                "Hint": "Consider how you can express a perfect number as the sum of its proper divisors.",
+                "Incorrect Response": "A number with no divisors other than itself.",
+                "Feedback": "A perfect number has divisors other than itself, but their sum equals the number itself."
+            },
+            {
+                "Question": "How can you efficiently find the proper divisors of a number?",
+                "Answer": "By iterating through numbers up to the square root of the given number.",
+                "Hint": "Think about how you can limit the range of numbers to check for divisibility.",
+                "Incorrect Response": "By checking divisibility by all integers up to the given number.",
+                "Feedback": "While possible, checking divisibility by all integers is less efficient compared to limiting it to the square root of the number."
+            }
+        ],
+        "Facts": [
+            "A perfect number is equal to the sum of its proper divisors.",
+            "Efficiently finding proper divisors involves limiting the range of numbers to check for divisibility."
+        ],
+        "Solution": "The solution involves finding the proper divisors of a number and checking if their sum equals the number itself to determine if it's a perfect number."
+    }
+]
