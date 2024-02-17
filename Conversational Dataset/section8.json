@@ -1,0 +1,92 @@
+[
+    {
+        "Student": "Q. What is exception handling in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a factual question about exception handling in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Define what exception handling is in Python.",
+        "Tutorbot": "Exception handling in Python is a mechanism for dealing with errors and other exceptional events that occur during program execution. It allows you to gracefully handle unexpected situations by catching and handling exceptions, preventing the program from crashing."
+    },
+    {
+        "Student": "Q. How do you raise an exception in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a procedural question related to raising exceptions in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Explain how to raise an exception in Python.",
+        "Tutorbot": "You can raise an exception in Python using the 'raise' keyword followed by the exception type. Optionally, you can provide an error message or other relevant information. For example, 'raise ValueError('Invalid input')' would raise a ValueError exception with the specified message."
+    },
+    {
+        "Student": "Q. What is the purpose of try-except blocks in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a question about the purpose of try-except blocks in Python exception handling.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Explain the purpose of try-except blocks in Python.",
+        "Tutorbot": "The purpose of try-except blocks in Python is to catch and handle exceptions that may occur during program execution. Code that might raise an exception is placed inside the 'try' block, and code to handle the exception is placed inside the 'except' block. If an exception occurs within the 'try' block, control is transferred to the corresponding 'except' block for handling."
+    },
+    {
+        "Student": "Q. What is the syntax for try-except blocks in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a procedural question related to the syntax of try-except blocks in Python exception handling.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Explain the syntax for try-except blocks in Python.",
+        "Tutorbot": "The syntax for try-except blocks in Python is as follows:\n\ntry:\n    # Code that may raise an exception\nexcept ExceptionType as e:\n    # Code to handle the exception\n    # Optionally, access exception information via 'e'"
+    },
+    {
+        "Student": "Q. What is the difference between except and finally blocks in Python exception handling?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a comparison question between except and finally blocks in Python exception handling.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Explain the differences between except and finally blocks in Python exception handling.",
+        "Tutorbot": "The 'except' block in Python exception handling is used to catch and handle specific exceptions, while the 'finally' block is used to execute cleanup code that should always run, regardless of whether an exception occurred or not. The 'finally' block is typically used for releasing resources or closing files."
+    },
+    {
+        "Student": "Q. How do you handle multiple exceptions in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a procedural question related to handling multiple exceptions in Python exception handling.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Explain how to handle multiple exceptions in Python.",
+        "Tutorbot": "In Python, you can handle multiple exceptions by specifying multiple 'except' blocks, each handling a different exception type. Alternatively, you can use a single 'except' block with multiple exception types enclosed in parentheses, separated by commas."
+    },
+    {
+        "Student": "Q. What is the purpose of the else block in Python exception handling?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a question about the purpose of the else block in Python exception handling.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Explain the purpose of the else block in Python exception handling.",
+        "Tutorbot": "The purpose of the else block in Python exception handling is to execute code that should run only if no exceptions occur in the 'try' block. It provides a way to distinguish between the normal execution of code and the execution that occurs when an exception is raised."
+    },
+    {
+        "Student": "Q. What is the purpose of the finally block in Python exception handling?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a question about the purpose of the finally block in Python exception handling.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Explain the purpose of the finally block in Python exception handling.",
+        "Tutorbot": "The purpose of the finally block in Python exception handling is to execute cleanup code that should always run, regardless of whether an exception occurred or not. It ensures that resources are released and cleanup tasks are performed, even if an exception is raised and not caught."
+    },
+    {
+        "Student": "Q. What is the difference between a built-in exception and a user-defined exception in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a comparison question between built-in and user-defined exceptions in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Explain the differences between built-in and user-defined exceptions in Python.",
+        "Tutorbot": "Built-in exceptions in Python are predefined exceptions provided by the language, such as ValueError or FileNotFoundError. User-defined exceptions, on the other hand, are exceptions created by the user to handle specific error conditions in their code. They are typically defined as subclasses of the built-in 'Exception' class."
+    },
+    {
+        "Student": "Q. How do you define a custom exception in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a procedural question related to defining custom exceptions in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Explain how to define a custom exception in Python.",
+        "Tutorbot": "To define a custom exception in Python, you can create a new class that inherits from the built-in 'Exception' class or one of its subclasses. Optionally, you can provide additional methods or attributes to customize the behavior of your custom exception."
+    }
+]
