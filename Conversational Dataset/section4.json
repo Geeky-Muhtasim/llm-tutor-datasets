@@ -1,0 +1,92 @@
+[
+    {
+        "Student": "Q. What is a loop in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a factual question about loops in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Define what a loop is in Python.",
+        "Tutorbot": "A loop in Python is a control flow statement that allows code to be executed repeatedly based on a condition. It repeatedly executes a block of code until the condition becomes false."
+    },
+    {
+        "Student": "Q. How do you write a while loop in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a procedural question related to writing while loops in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Explain how to write a while loop in Python.",
+        "Tutorbot": "In Python, a while loop is written using the 'while' keyword followed by a condition. The block of code to be repeated is then indented under the 'while' statement. For example:\n\nwhile condition:\n    # Code to be repeated"
+    },
+    {
+        "Student": "Q. What is an infinite loop?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a question about infinite loops in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Define what an infinite loop is in Python.",
+        "Tutorbot": "An infinite loop in Python is a loop that continues to execute indefinitely because the loop condition never becomes false. It can be unintentionally created and may result in the program becoming unresponsive."
+    },
+    {
+        "Student": "Q. How do you break out of a loop in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a procedural question related to breaking out of loops in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Explain how to break out of a loop in Python.",
+        "Tutorbot": "In Python, you can break out of a loop prematurely using the 'break' keyword. When 'break' is encountered within a loop, the loop is terminated immediately, and the program continues with the next statement after the loop."
+    },
+    {
+        "Student": "Q. What is the difference between 'break' and 'continue' in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a comparison question about 'break' and 'continue' statements in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Explain the difference between 'break' and 'continue' statements in Python.",
+        "Tutorbot": "In Python, the 'break' statement terminates the loop it is in prematurely, while the 'continue' statement skips the rest of the current iteration and continues with the next iteration of the loop."
+    },
+    {
+        "Student": "Q. How do you write a for loop in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a procedural question related to writing for loops in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Explain how to write a for loop in Python.",
+        "Tutorbot": "In Python, a for loop is written using the 'for' keyword followed by a variable to iterate over and an iterable object such as a list or range. The block of code to be repeated is then indented under the 'for' statement. For example:\n\nfor item in iterable:\n    # Code to be repeated"
+    },
+    {
+        "Student": "Q. What is the range() function used for in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a question about the range() function in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Explain the purpose of the range() function in Python.",
+        "Tutorbot": "The range() function in Python is used to generate a sequence of numbers. It can take one, two, or three arguments and returns a range object that represents the sequence. The generated sequence is often used for iterating over in for loops."
+    },
+    {
+        "Student": "Q. How do you iterate over a dictionary in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a procedural question related to iterating over dictionaries in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Explain how to iterate over a dictionary in Python.",
+        "Tutorbot": "In Python, you can iterate over a dictionary using a for loop. By default, the loop iterates over the keys of the dictionary, but you can also iterate over the values or key-value pairs if needed."
+    },
+    {
+        "Student": "Q. What is nested loop in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a question about nested loops in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Define what a nested loop is in Python.",
+        "Tutorbot": "A nested loop in Python is a loop inside another loop. It allows you to perform repetitive tasks in a hierarchical manner. Each iteration of the outer loop triggers the inner loop to execute its iterations."
+    },
+    {
+        "Student": "Q. How do you avoid infinite loops in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a procedural question related to avoiding infinite loops in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Explain strategies to avoid infinite loops in Python.",
+        "Tutorbot": "To avoid infinite loops in Python, ensure that the loop condition eventually becomes false or that there is a mechanism, such as a break statement, to terminate the loop. It's also helpful to review the loop condition and logic to ensure it behaves as intended."
+    }
+]
