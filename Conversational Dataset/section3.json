@@ -1,0 +1,92 @@
+[
+    {
+        "Student": "Q. What is control flow in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a factual question about control flow in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Define what control flow is in Python.",
+        "Tutorbot": "Control flow in Python refers to the order in which statements are executed in a program. It allows you to make decisions, repeat code, and handle different situations."
+    },
+    {
+        "Student": "Q. How do you create a conditional statement in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a procedural question related to creating conditional statements in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Explain how to create a conditional statement in Python.",
+        "Tutorbot": "In Python, you create a conditional statement using the 'if', 'elif', and 'else' keywords. These keywords allow you to test conditions and execute different blocks of code based on the result."
+    },
+    {
+        "Student": "Q. What is an if statement in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a question about if statements in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Define what an if statement is in Python.",
+        "Tutorbot": "An if statement in Python is used to test a condition. If the condition is true, the code block following the if statement is executed."
+    },
+    {
+        "Student": "Q. How do you use nested if statements in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a procedural question related to using nested if statements in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Explain how to use nested if statements in Python.",
+        "Tutorbot": "Nested if statements in Python are if statements within other if statements. They allow you to test multiple conditions, with each condition being tested only if the previous one is true."
+    },
+    {
+        "Student": "Q. What is the purpose of the 'else' statement in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a question about the 'else' statement in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Explain the purpose of the 'else' statement in Python.",
+        "Tutorbot": "The 'else' statement in Python is used in conjunction with an if statement to execute a block of code if the condition in the if statement evaluates to false."
+    },
+    {
+        "Student": "Q. What are the comparison operators in Python?",
+        "Thoughts of Tutorbot": "Tutorbot recognizes this as a question about comparison operators in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "List and describe comparison operators in Python.",
+        "Tutorbot": "Comparison operators in Python include '==', '!=', '>', '<', '>=', and '<='. These operators are used to compare values and return a boolean result."
+    },
+    {
+        "Student": "Q. What is a boolean expression in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a question about boolean expressions in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Define what a boolean expression is in Python.",
+        "Tutorbot": "A boolean expression in Python is an expression that evaluates to either True or False. It typically involves comparison operators and logical operators."
+    },
+    {
+        "Student": "Q. How do you use the 'and' operator in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a question about the 'and' operator in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Explain how to use the 'and' operator in Python.",
+        "Tutorbot": "The 'and' operator in Python is used to combine multiple conditions. It returns True only if all the conditions are True."
+    },
+    {
+        "Student": "Q. What is a loop in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a question about loops in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Define what a loop is in Python.",
+        "Tutorbot": "A loop in Python is used to repeatedly execute a block of code. It allows you to iterate over a sequence or perform a task multiple times."
+    },
+    {
+        "Student": "Q. How do you create a 'while' loop in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a procedural question related to creating 'while' loops in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Explain how to create a 'while' loop in Python.",
+        "Tutorbot": "In Python, you create a 'while' loop using the 'while' keyword followed by a condition. The code block inside the loop is executed repeatedly as long as the condition evaluates to True."
+    }
+]
