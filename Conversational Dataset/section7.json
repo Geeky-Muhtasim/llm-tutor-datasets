@@ -1,0 +1,101 @@
+[
+    {
+        "Student": "Q. What is file handling in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a factual question about file handling in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Define what file handling is in Python.",
+        "Tutorbot": "File handling in Python refers to the process of working with files, including reading from and writing to files. It allows programs to interact with external files on the file system, enabling tasks such as data persistence and manipulation."
+    },
+    {
+        "Student": "Q. How do you open a file in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a procedural question related to opening files in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Explain how to open a file in Python.",
+        "Tutorbot": "In Python, you can open a file using the 'open()' function. You specify the file path and mode ('r' for reading, 'w' for writing, 'a' for appending, etc.) as arguments to the function. The 'open()' function returns a file object that can be used to interact with the file."
+    },
+    {
+        "Student": "Q. What are different modes of opening a file in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a question about different modes of opening files in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Explain the different modes available for opening a file in Python.",
+        "Tutorbot": "In Python, different modes for opening a file include:\n- 'r': Read mode (default), opens a file for reading.\n- 'w': Write mode, opens a file for writing. If the file exists, it will be overwritten. If it doesn't exist, a new file will be created.\n- 'a': Append mode, opens a file for appending. New data will be written to the end of the file.\n- 'b': Binary mode, for binary files.\n- 't': Text mode (default), for text files.\n- '+': Open a file for updating (reading and writing)."
+    },
+    {
+        "Student": "Q. How do you read from a file in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a procedural question related to reading from files in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Explain how to read from a file in Python.",
+        "Tutorbot": "To read from a file in Python, you can use various methods of the file object, such as 'read()', 'readline()', or 'readlines()'. These methods allow you to read the entire file, one line at a time, or all lines into a list, respectively."
+    },
+    {
+        "Student": "Q. How do you write to a file in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a procedural question related to writing to files in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Explain how to write to a file in Python.",
+        "Tutorbot": "To write to a file in Python, you can use the 'write()' method of the file object. Alternatively, you can use the 'writelines()' method to write a sequence of strings to the file. Remember to open the file in write or append mode before writing to it."
+    },
+    {
+        "Student": "Q. How do you close a file in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a procedural question related to closing files in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Explain how to close a file in Python.",
+        "Tutorbot": "To close a file in Python, you can use the 'close()' method of the file object. This method releases the resources associated with the file and ensures that any buffered data is written to the file before closing. It's a best practice to always close files after you're done using them to free up system resources."
+    },
+    {
+        "Student": "Q. What is the difference between read() and readline() methods in Python file handling?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a comparison question between read() and readline() methods in Python file handling.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Explain the differences between the read() and readline() methods in Python file handling.",
+        "Tutorbot": "The 'read()' method in Python file handling reads the entire contents of the file, while the 'readline()' method reads one line from the file. The 'readline()' method moves the file pointer to the next line after reading, allowing subsequent calls to read the next lines."
+    },
+    {
+        "Student": "Q. How do you check if a file exists in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a procedural question related to checking file existence in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Explain how to check if a file exists in Python.",
+        "Tutorbot": "To check if a file exists in Python, you can use the 'exists()' function from the 'os.path' module. Alternatively, you can attempt to open the file and handle the 'FileNotFoundError' exception if it occurs."
+    },
+    {
+        "Student": "Q. How do you delete a file in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a procedural question related to deleting files in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Explain how to delete a file in Python.",
+        "Tutorbot": "To delete a file in Python, you can use the 'remove()' function from the 'os' module. This function takes the file path as an argument and deletes the file from the file system. Be careful when deleting files, as this action cannot be undone."
+    },
+    {
+        "Student": "Q. What is file buffering in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a question about file buffering in Python file handling.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Explain what file buffering means in Python file handling.",
+        "Tutorbot": "File buffering in Python refers to the process of storing data temporarily in memory before writing it to the file. This improves the performance of file I/O operations by reducing the number of system calls. Python uses automatic buffering by default, but you can control buffering behavior using the 'buffering' argument when opening a file."
+    },
+    {
+        "Student": "Q. What is the 'with' statement used for in Python file handling?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a question about the 'with' statement in Python file handling.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Explain the purpose of the 'with' statement in Python file handling.",
+        "Tutorbot": "The 'with' statement in Python file handling is used to ensure proper handling of resources, such as files. It automatically handles opening and closing of files and guarantees that resources are released when they are no longer needed, even if an error occurs during execution."
+    }
+]
