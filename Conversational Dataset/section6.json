@@ -1,0 +1,101 @@
+[
+    {
+        "Student": "Q. What is a list in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a factual question about lists in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Define what a list is in Python.",
+        "Tutorbot": "A list in Python is a mutable collection of items stored in a specific order. Lists can contain elements of different data types, and they allow for duplicate values. Lists are created using square brackets and can be modified after creation."
+    },
+    {
+        "Student": "Q. How do you access elements in a list in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a procedural question related to accessing elements in lists in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Explain how to access elements in a list in Python.",
+        "Tutorbot": "You can access elements in a list in Python using indexing. Indexing starts from 0 for the first element and goes up to (length - 1) for the last element. Additionally, negative indices can be used to access elements from the end of the list."
+    },
+    {
+        "Student": "Q. What is a tuple in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a factual question about tuples in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Define what a tuple is in Python.",
+        "Tutorbot": "A tuple in Python is an immutable collection of items stored in a specific order. Tuples are similar to lists, but they cannot be modified after creation. Tuples are created using parentheses and can contain elements of different data types."
+    },
+    {
+        "Student": "Q. How do you access elements in a tuple in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a procedural question related to accessing elements in tuples in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Explain how to access elements in a tuple in Python.",
+        "Tutorbot": "You can access elements in a tuple in Python using indexing, similar to lists. Indexing starts from 0 for the first element and goes up to (length - 1) for the last element. Additionally, negative indices can be used to access elements from the end of the tuple."
+    },
+    {
+        "Student": "Q. What is a set in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a factual question about sets in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Define what a set is in Python.",
+        "Tutorbot": "A set in Python is an unordered collection of unique elements. Sets do not allow duplicate values, and they are mutable, meaning you can add or remove elements after creation. Sets are created using curly braces or the 'set()' function."
+    },
+    {
+        "Student": "Q. How do you add elements to a set in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a procedural question related to adding elements to sets in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Explain how to add elements to a set in Python.",
+        "Tutorbot": "You can add elements to a set in Python using the 'add()' method. Alternatively, you can use the 'update()' method to add multiple elements from another iterable to the set."
+    },
+    {
+        "Student": "Q. What is a dictionary in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a factual question about dictionaries in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Define what a dictionary is in Python.",
+        "Tutorbot": "A dictionary in Python is an unordered collection of key-value pairs. Each key is unique and is used to access its corresponding value. Dictionaries are mutable and can contain elements of different data types. They are created using curly braces and colon-separated key-value pairs."
+    },
+    {
+        "Student": "Q. How do you access values in a dictionary in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a procedural question related to accessing values in dictionaries in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Explain how to access values in a dictionary in Python.",
+        "Tutorbot": "You can access values in a dictionary in Python using keys. Simply use the key within square brackets to retrieve the corresponding value. If the key does not exist, it will raise a KeyError."
+    },
+    {
+        "Student": "Q. How do you iterate over a dictionary in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a procedural question related to iterating over dictionaries in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Explain how to iterate over a dictionary in Python.",
+        "Tutorbot": "In Python, you can iterate over a dictionary using a for loop. By default, the loop iterates over the keys of the dictionary, but you can also iterate over the values or key-value pairs if needed."
+    },
+    {
+        "Student": "Q. What is the difference between a list and a tuple in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a comparison question between lists and tuples in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Explain the differences between lists and tuples in Python.",
+        "Tutorbot": "The main difference between lists and tuples in Python is that lists are mutable, meaning they can be modified after creation, while tuples are immutable and cannot be changed. Lists are created using square brackets, whereas tuples are created using parentheses."
+    },
+    {
+        "Student": "Q. What is the difference between a set and a dictionary in Python?",
+        "Thoughts of Tutorbot": "Tutorbot identifies this as a comparison question between sets and dictionaries in Python.",
+        "Evaluation of Student Response": "b",
+        "Action Based on Evaluation": "3",
+        "Subproblem State": "w",
+        "Subproblem": "Explain the differences between sets and dictionaries in Python.",
+        "Tutorbot": "The main difference between sets and dictionaries in Python is that sets are unordered collections of unique elements, while dictionaries are unordered collections of key-value pairs. Additionally, sets do not allow duplicate values, whereas dictionaries require unique keys."
+    }
+]
