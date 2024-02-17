@@ -1,0 +1,242 @@
+[
+    {
+        "Problem": "Write a Python script to calculate the factorial of a given number.",
+        "SubProblems": [
+            {
+                "Question": "How can you iterate through numbers to multiply them together?",
+                "Answer": "Using a for loop.",
+                "Hint": "Consider using a for loop to iterate through numbers from 1 to the given number.",
+                "Incorrect Response": "Using a while loop.",
+                "Feedback": "A for loop is more suitable for iterating through a range of numbers."
+            },
+            {
+                "Question": "How can you handle the case when the input number is 0 or negative?",
+                "Answer": "By checking for special cases and returning 1 for 0 and handling negative numbers accordingly.",
+                "Hint": "Think about using conditional statements to handle special cases.",
+                "Incorrect Response": "By directly multiplying the number without any condition checks.",
+                "Feedback": "Special cases such as 0 need to be handled separately to ensure correct results."
+            }
+        ],
+        "Facts": [
+            "Factorial of 0 is 1.",
+            "Factorial of a negative number is undefined."
+        ],
+        "Solution": "The solution involves using a for loop to iterate from 1 to the given number and multiplying the numbers together. Special cases such as 0 need to be handled separately."
+    },
+    {
+        "Problem": "Write a Python program to find the largest element in a list.",
+        "SubProblems": [
+            {
+                "Question": "How can you iterate through the elements of a list?",
+                "Answer": "Using a for loop.",
+                "Hint": "Consider using a for loop to iterate through each element of the list.",
+                "Incorrect Response": "Using a while loop.",
+                "Feedback": "A for loop is more suitable for iterating through the elements of a list."
+            },
+            {
+                "Question": "How can you handle the case when the list is empty?",
+                "Answer": "By returning None or handling it as per the requirements of the program.",
+                "Hint": "Think about using conditional statements to check for an empty list.",
+                "Incorrect Response": "By assuming the list always contains elements.",
+                "Feedback": "It's essential to consider edge cases like an empty list to ensure robustness in your program."
+            }
+        ],
+        "Facts": [
+            "An empty list has no largest element.",
+            "The largest element in a list can be found by iterating through each element and comparing them."
+        ],
+        "Solution": "The solution involves iterating through each element of the list using a for loop and keeping track of the largest element encountered."
+    },
+    {
+        "Problem": "Write a Python program to check if a string is a palindrome.",
+        "SubProblems": [
+            {
+                "Question": "How can you reverse a string?",
+                "Answer": "Using string slicing or built-in functions like reversed().",
+                "Hint": "Consider using string slicing or a built-in function to reverse the string.",
+                "Incorrect Response": "By manually iterating through the characters of the string.",
+                "Feedback": "While possible, manually iterating through characters can be more complex and error-prone compared to using built-in functions."
+            },
+            {
+                "Question": "How can you handle whitespace and case sensitivity while checking for a palindrome?",
+                "Answer": "By stripping whitespace and converting the string to lowercase before comparison.",
+                "Hint": "Think about preprocessing the string to ensure consistent comparison.",
+                "Incorrect Response": "By directly comparing the string without any preprocessing.",
+                "Feedback": "Ignoring whitespace and case sensitivity can lead to incorrect palindrome checks."
+            }
+        ],
+        "Facts": [
+            "A palindrome is a word, phrase, number, or other sequence of characters that reads the same forward and backward.",
+            "Whitespace and case sensitivity should be considered when checking for palindromes."
+        ],
+        "Solution": "The solution involves preprocessing the string to remove whitespace and convert it to lowercase, then comparing it with its reverse to determine if it's a palindrome."
+    },
+    {
+        "Problem": "Write a Python program to count the frequency of each character in a string.",
+        "SubProblems": [
+            {
+                "Question": "How can you iterate through the characters of a string?",
+                "Answer": "Using a for loop.",
+                "Hint": "Consider using a for loop to iterate through each character of the string.",
+                "Incorrect Response": "By using string methods to directly manipulate characters.",
+                "Feedback": "While string methods can be useful, iterating through characters individually provides more control and flexibility."
+            },
+            {
+                "Question": "How can you store the frequency of each character?",
+                "Answer": "Using a dictionary.",
+                "Hint": "Think about using a data structure that allows you to associate each character with its frequency.",
+                "Incorrect Response": "Using a list.",
+                "Feedback": "While a list can store elements, it doesn't provide a direct way to associate characters with their frequencies."
+            }
+        ],
+        "Facts": [
+            "A dictionary allows you to store key-value pairs, making it suitable for storing character frequencies.",
+            "String methods like count() can be inefficient for counting character frequencies in large strings."
+        ],
+        "Solution": "The solution involves iterating through each character of the string using a for loop and updating a dictionary to store the frequency of each character."
+    },
+    {
+        "Problem": "Write a Python program to find the intersection of two lists.",
+        "SubProblems": [
+            {
+                "Question": "How can you iterate through the elements of a list?",
+                "Answer": "Using a for loop.",
+                "Hint": "Consider using a for loop to iterate through each element of the lists.",
+                "Incorrect Response": "Using a while loop.",
+                "Feedback": "A for loop is more suitable for iterating through the elements of a list."
+            },
+            {
+                "Question": "How can you efficiently check for common elements between two lists?",
+                "Answer": "By using set operations like intersection().",
+                "Hint": "Think about using built-in set operations to find common elements efficiently.",
+                "Incorrect Response": "By manually comparing each element of one list with every element of the other list.",
+                "Feedback": "While possible, manual comparison can be inefficient for large lists compared to set operations."
+            }
+        ],
+        "Facts": [
+            "Sets are an efficient data structure for checking for common elements between collections.",
+            "The intersection of two sets contains elements that are common to both sets."
+        ],
+        "Solution": "The solution involves converting the lists to sets and using set intersection to find common elements."
+    },
+    {
+        "Problem": "Write a Python program to remove duplicates from a list.",
+        "SubProblems": [
+            {
+                "Question": "How can you iterate through the elements of a list?",
+                "Answer": "Using a for loop.",
+                "Hint": "Consider using a for loop to iterate through each element of the list.",
+                "Incorrect Response": "Using a while loop.",
+                "Feedback": "A for loop is more suitable for iterating through the elements of a list."
+            },
+            {
+                "Question": "How can you efficiently remove duplicates from a list?",
+                "Answer": "By converting the list to a set and then back to a list.",
+                "Hint": "Think about using the properties of sets to remove duplicates efficiently.",
+                "Incorrect Response": "By manually iterating through the list and removing duplicates one by one.",
+                "Feedback": "While possible, manual removal of duplicates can be inefficient compared to using set operations."
+            }
+        ],
+        "Facts": [
+            "Sets automatically remove duplicate elements.",
+            "Converting a list to a set and back to a list removes duplicates efficiently."
+        ],
+        "Solution": "The solution involves converting the list to a set to remove duplicates, then converting it back to a list."
+    },
+    {
+        "Problem": "Write a Python program to find the second smallest element in a list.",
+        "SubProblems": [
+            {
+                "Question": "How can you iterate through the elements of a list?",
+                "Answer": "Using a for loop.",
+                "Hint": "Consider using a for loop to iterate through each element of the list.",
+                "Incorrect Response": "Using a while loop.",
+                "Feedback": "A for loop is more suitable for iterating through the elements of a list."
+            },
+            {
+                "Question": "How can you efficiently find the second smallest element in a list?",
+                "Answer": "By sorting the list and accessing the second element.",
+                "Hint": "Think about using sorting to arrange elements in order and then accessing the second element.",
+                "Incorrect Response": "By manually iterating through the list to find the second smallest element.",
+                "Feedback": "While possible, manual iteration can be inefficient compared to using sorting."
+            }
+        ],
+        "Facts": [
+            "Sorting arranges elements in ascending or descending order.",
+            "Accessing elements by index allows you to retrieve specific elements from a list."
+        ],
+        "Solution": "The solution involves sorting the list and accessing the second element to find the second smallest element."
+    },
+    {
+        "Problem": "Write a Python program to find the common characters between two strings.",
+        "SubProblems": [
+            {
+                "Question": "How can you iterate through the characters of a string?",
+                "Answer": "Using a for loop.",
+                "Hint": "Consider using a for loop to iterate through each character of the strings.",
+                "Incorrect Response": "Using a while loop.",
+                "Feedback": "A for loop is more suitable for iterating through the characters of a string."
+            },
+            {
+                "Question": "How can you efficiently check for common characters between two strings?",
+                "Answer": "By converting the strings to sets and using set operations like intersection().",
+                "Hint": "Think about using set operations to efficiently find common elements between collections.",
+                "Incorrect Response": "By manually comparing each character of one string with every character of the other string.",
+                "Feedback": "While possible, manual comparison can be inefficient compared to set operations."
+            }
+        ],
+        "Facts": [
+            "Sets are efficient for checking for common elements between collections.",
+            "The intersection of two sets contains elements that are common to both sets."
+        ],
+        "Solution": "The solution involves converting the strings to sets and using set intersection to find common characters."
+    },
+    {
+        "Problem": "Write a Python program to check if a number is prime.",
+        "SubProblems": [
+            {
+                "Question": "How can you efficiently check for factors of a number?",
+                "Answer": "By iterating through numbers up to the square root of the given number.",
+                "Hint": "Consider using efficient techniques to check for factors without unnecessary iteration.",
+                "Incorrect Response": "By iterating through all numbers up to the given number.",
+                "Feedback": "Iterating up to the square root reduces unnecessary computation."
+            },
+            {
+                "Question": "How can you handle the case when the number is less than or equal to 1?",
+                "Answer": "By directly returning False.",
+                "Hint": "Think about using conditional statements to handle special cases.",
+                "Incorrect Response": "By assuming all numbers less than or equal to 1 are prime.",
+                "Feedback": "Numbers less than or equal to 1 are not considered prime."
+            }
+        ],
+        "Facts": [
+            "A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself.",
+            "To check if a number n is prime, it's sufficient to check for divisors up to √n."
+        ],
+        "Solution": "The solution involves checking for factors of the number up to its square root to determine if it's prime."
+    },
+    {
+        "Problem": "Write a Python program to find the sum of all prime numbers up to a given number.",
+        "SubProblems": [
+            {
+                "Question": "How can you efficiently check if a number is prime?",
+                "Answer": "By using a function to determine primality.",
+                "Hint": "Consider writing a separate function to check if a number is prime.",
+                "Incorrect Response": "By directly checking divisibility with all numbers up to the given number.",
+                "Feedback": "Using a function to check primality is more modular and efficient."
+            },
+            {
+                "Question": "How can you efficiently iterate through numbers up to a given limit?",
+                "Answer": "By using a for loop.",
+                "Hint": "Consider using a for loop to iterate through numbers.",
+                "Incorrect Response": "By using a while loop with an incrementing variable.",
+                "Feedback": "A for loop is more suitable for iterating through a range of numbers."
+            }
+        ],
+        "Facts": [
+            "The sum of prime numbers is a common problem in number theory and has applications in cryptography.",
+            "Efficient algorithms exist for generating prime numbers and computing their sum."
+        ],
+        "Solution": "The solution involves iterating through numbers up to the given limit and summing the prime numbers using a function to check for primality."
+    }
+]

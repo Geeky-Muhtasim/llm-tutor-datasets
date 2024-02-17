@@ -1,0 +1,218 @@
+[
+    {
+        "Problem": "Write a Python program to convert temperature from Celsius to Fahrenheit.",
+        "SubProblems": [
+            {
+                "Question": "What is the formula to convert temperature from Celsius to Fahrenheit?",
+                "Answer": "Fahrenheit = (Celsius * 9/5) + 32",
+                "Hint": "Consider using the conversion formula involving multiplication and addition.",
+                "Incorrect Response": "Fahrenheit = Celsius + 32",
+                "Feedback": "The conversion involves both multiplication and addition, as per the conversion formula."
+            },
+            {
+                "Question": "How can you prompt the user to enter the temperature in Celsius?",
+                "Answer": "Using the input() function.",
+                "Hint": "Think about using the input() function to take user input.",
+                "Incorrect Response": "Using the print() function.",
+                "Feedback": "While the print() function displays output, the input() function is used for taking user input."
+            }
+        ],
+        "Facts": [
+            "The formula to convert temperature from Celsius to Fahrenheit is (Celsius * 9/5) + 32.",
+            "The input temperature can be obtained using the input() function."
+        ],
+        "Solution": "The solution involves taking the temperature in Celsius as input, applying the conversion formula, and displaying the result in Fahrenheit."
+    },
+    {
+        "Problem": "Write a Python program to calculate the area of a circle given its radius.",
+        "SubProblems": [
+            {
+                "Question": "What is the formula to calculate the area of a circle?",
+                "Answer": "Area = π * (radius ** 2)",
+                "Hint": "Consider using the formula involving the radius and the constant π.",
+                "Incorrect Response": "Area = 2 * π * radius",
+                "Feedback": "The formula to calculate the area of a circle involves squaring the radius, not multiplying it."
+            },
+            {
+                "Question": "How can you prompt the user to enter the radius of the circle?",
+                "Answer": "Using the input() function.",
+                "Hint": "Think about using the input() function to take user input.",
+                "Incorrect Response": "Using the print() function.",
+                "Feedback": "While the print() function displays output, the input() function is used for taking user input."
+            }
+        ],
+        "Facts": [
+            "The formula to calculate the area of a circle is π * (radius ** 2).",
+            "The input radius can be obtained using the input() function."
+        ],
+        "Solution": "The solution involves taking the radius of the circle as input, applying the area formula, and displaying the result."
+    },
+    {
+        "Problem": "Write a Python program to check if a given number is even or odd.",
+        "SubProblems": [
+            {
+                "Question": "How can you determine if a number is even?",
+                "Answer": "By checking if the number is divisible by 2 with no remainder.",
+                "Hint": "Consider using the modulo operator to check for divisibility by 2.",
+                "Incorrect Response": "By checking if the number is divisible by 2 with a remainder of 1.",
+                "Feedback": "An even number is divisible by 2 with no remainder."
+            },
+            {
+                "Question": "How can you prompt the user to enter the number?",
+                "Answer": "Using the input() function.",
+                "Hint": "Think about using the input() function to take user input.",
+                "Incorrect Response": "Using the print() function.",
+                "Feedback": "While the print() function displays output, the input() function is used for taking user input."
+            }
+        ],
+        "Facts": [
+            "An even number is divisible by 2 with no remainder.",
+            "The input number can be obtained using the input() function."
+        ],
+        "Solution": "The solution involves taking the number as input, checking if it's divisible by 2, and determining if it's even or odd."
+    },
+    {
+        "Problem": "Write a Python program to find the sum of digits of a given number.",
+        "SubProblems": [
+            {
+                "Question": "How can you extract individual digits from a number?",
+                "Answer": "By using the modulus operator (%) and integer division.",
+                "Hint": "Consider using the modulus operator (%) to extract the last digit and integer division (//) to remove it.",
+                "Incorrect Response": "By converting the number to a string and iterating through its characters.",
+                "Feedback": "While possible, converting to a string and iterating through characters is less efficient compared to using mathematical operations."
+            },
+            {
+                "Question": "How can you initialize the sum of digits?",
+                "Answer": "By setting it to 0 before adding individual digits.",
+                "Hint": "Consider starting with a sum of 0 before adding individual digits.",
+                "Incorrect Response": "By directly adding the digits without initializing the sum.",
+                "Feedback": "It's essential to initialize the sum before adding individual digits to avoid errors."
+            }
+        ],
+        "Facts": [
+            "The sum of digits of a number can be found by extracting individual digits and adding them together.",
+            "The modulus operator (%) can be used to extract the last digit of a number."
+        ],
+        "Solution": "The solution involves extracting individual digits from the number using the modulus operator (%) and integer division, adding them together to find the sum."
+    },
+    {
+        "Problem": "Write a Python program to check if a given year is a leap year.",
+        "SubProblems": [
+            {
+                "Question": "What are the conditions for a leap year?",
+                "Answer": "The year must be divisible by 4 but not by 100 unless it's also divisible by 400.",
+                "Hint": "Consider the conditions involving divisibility by 4, 100, and 400.",
+                "Incorrect Response": "The year must be divisible by 4 and by 100.",
+                "Feedback": "While divisibility by 4 is a condition, divisibility by 100 has exceptions, which need to be considered."
+            },
+            {
+                "Question": "How can you prompt the user to enter the year?",
+                "Answer": "Using the input() function.",
+                "Hint": "Think about using the input() function to take user input.",
+                "Incorrect Response": "Using the print() function.",
+                "Feedback": "While the print() function displays output, the input() function is used for taking user input."
+            }
+        ],
+        "Facts": [
+            "A leap year is a year that is evenly divisible by 4, except for years that are divisible by 100 but not by 400.",
+            "The input year can be obtained using the input() function."
+        ],
+        "Solution": "The solution involves taking the year as input, checking the conditions for a leap year, and determining if it's a leap year."
+    },
+    {
+        "Problem": "Write a Python program to find the square root of a given number.",
+        "SubProblems": [
+            {
+                "Question": "How can you calculate the square root of a number?",
+                "Answer": "By using the ** operator or the math.sqrt() function.",
+                "Hint": "Consider using either the ** operator or the math.sqrt() function to calculate the square root.",
+                "Incorrect Response": "By multiplying the number by itself.",
+                "Feedback": "While this method can give an approximate result, it's not the most accurate way to find the square root."
+            },
+            {
+                "Question": "How can you prompt the user to enter the number?",
+                "Answer": "Using the input() function.",
+                "Hint": "Think about using the input() function to take user input.",
+                "Incorrect Response": "Using the print() function.",
+                "Feedback": "While the print() function displays output, the input() function is used for taking user input."
+            }
+        ],
+        "Facts": [
+            "The square root of a number can be calculated using the ** operator or the math.sqrt() function.",
+            "The input number can be obtained using the input() function."
+        ],
+        "Solution": "The solution involves taking the number as input and calculating its square root using either the ** operator or the math.sqrt() function."
+    },
+    {
+        "Problem": "Write a Python program to concatenate two strings.",
+        "SubProblems": [
+            {
+                "Question": "How can you combine two strings in Python?",
+                "Answer": "By using the + operator.",
+                "Hint": "Consider using the + operator to concatenate two strings.",
+                "Incorrect Response": "By using the * operator.",
+                "Feedback": "The * operator is used for repetition, while the + operator is used for concatenation."
+            },
+            {
+                "Question": "How can you prompt the user to enter the strings?",
+                "Answer": "Using the input() function.",
+                "Hint": "Think about using the input() function to take user input.",
+                "Incorrect Response": "Using the print() function.",
+                "Feedback": "While the print() function displays output, the input() function is used for taking user input."
+            }
+        ],
+        "Facts": [
+            "Strings can be concatenated using the + operator in Python.",
+            "The input strings can be obtained using the input() function."
+        ],
+        "Solution": "The solution involves taking two strings as input and concatenating them using the + operator."
+    },
+    {
+        "Problem": "Write a Python program to swap two variables without using a temporary variable.",
+        "SubProblems": [
+            {
+                "Question": "How can you assign multiple values to variables simultaneously?",
+                "Answer": "By using tuple unpacking.",
+                "Hint": "Consider using tuple unpacking to assign values to multiple variables.",
+                "Incorrect Response": "By using multiple assignment statements.",
+                "Feedback": "While possible, tuple unpacking provides a more concise and readable way to swap variables."
+            },
+            {
+                "Question": "How can you prompt the user to enter the values of the variables?",
+                "Answer": "Using the input() function.",
+                "Hint": "Think about using the input() function to take user input.",
+                "Incorrect Response": "Using the print() function.",
+                "Feedback": "While the print() function displays output, the input() function is used for taking user input."
+            }
+        ],
+        "Facts": [
+            "Tuple unpacking allows you to assign multiple values to variables simultaneously.",
+            "The input values can be obtained using the input() function."
+        ],
+        "Solution": "The solution involves taking the values of two variables as input, swapping them using tuple unpacking, and displaying the result."
+    },
+    {
+        "Problem": "Write a Python program to convert a string to uppercase.",
+        "SubProblems": [
+            {
+                "Question": "How can you convert a string to uppercase in Python?",
+                "Answer": "By using the upper() method.",
+                "Hint": "Consider using the upper() method to convert a string to uppercase.",
+                "Incorrect Response": "By using the capitalize() method.",
+                "Feedback": "The capitalize() method capitalizes only the first character of the string, while the upper() method converts the entire string to uppercase."
+            },
+            {
+                "Question": "How can you prompt the user to enter the string?",
+                "Answer": "Using the input() function.",
+                "Hint": "Think about using the input() function to take user input.",
+                "Incorrect Response": "Using the print() function.",
+                "Feedback": "While the print() function displays output, the input() function is used for taking user input."
+            }
+        ],
+        "Facts": [
+            "The upper() method can be used to convert a string to uppercase in Python.",
+            "The input string can be obtained using the input() function."
+        ],
+        "Solution": "The solution involves taking a string as input and converting it to uppercase using the upper() method."
+    }
+]

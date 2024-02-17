@@ -1,0 +1,170 @@
+[
+    {
+        "Problem": "Write a Python program to check if a given number is positive, negative, or zero.",
+        "SubProblems": [
+            {
+                "Question": "How can you check if a number is greater than zero?",
+                "Answer": "By using a greater than (>) comparison operator.",
+                "Hint": "Consider using a comparison operator to check if the number is greater than zero.",
+                "Incorrect Response": "By using an equal to (==) comparison operator.",
+                "Feedback": "An equal to (==) comparison operator checks for equality, not whether a number is positive."
+            },
+            {
+                "Question": "How can you handle the case when the number is zero?",
+                "Answer": "By checking if the number is equal to zero separately.",
+                "Hint": "Think about using conditional statements to handle the special case of zero.",
+                "Incorrect Response": "By including zero with negative numbers.",
+                "Feedback": "Zero is not considered negative, so it should be handled separately from negative numbers."
+            }
+        ],
+        "Facts": [
+            "A number greater than zero is considered positive.",
+            "Zero is neither positive nor negative."
+        ],
+        "Solution": "The solution involves checking if the number is greater than zero, equal to zero, or less than zero using conditional statements."
+    },
+    {
+        "Problem": "Write a Python program to find the largest among three numbers.",
+        "SubProblems": [
+            {
+                "Question": "How can you compare two numbers to find the larger one?",
+                "Answer": "By using comparison operators like greater than (>) or less than (<).",
+                "Hint": "Consider using comparison operators to compare pairs of numbers.",
+                "Incorrect Response": "By adding the numbers together.",
+                "Feedback": "Adding the numbers together doesn't determine which one is larger; you need to use comparison operators."
+            },
+            {
+                "Question": "How can you extend the comparison to three numbers?",
+                "Answer": "By comparing the largest of the first two numbers with the third number.",
+                "Hint": "Think about extending the comparison process to include the third number.",
+                "Incorrect Response": "By comparing all three numbers simultaneously.",
+                "Feedback": "While comparing all three numbers at once is possible, it's simpler to compare pairs of numbers sequentially."
+            }
+        ],
+        "Facts": [
+            "The largest among three numbers can be found by comparing pairs of numbers.",
+            "Extending the comparison process involves comparing the largest of the first two numbers with the third number."
+        ],
+        "Solution": "The solution involves comparing pairs of numbers to find the largest among them, then comparing the largest with the third number to determine the overall largest."
+    },
+    {
+        "Problem": "Write a Python program to check if a given year is a leap year.",
+        "SubProblems": [
+            {
+                "Question": "What are the conditions for a leap year?",
+                "Answer": "The year must be divisible by 4 but not by 100 unless it's also divisible by 400.",
+                "Hint": "Consider the conditions involving divisibility by 4, 100, and 400.",
+                "Incorrect Response": "The year must be divisible by 4 and by 100.",
+                "Feedback": "While divisibility by 4 is a condition, divisibility by 100 has exceptions, which need to be considered."
+            },
+            {
+                "Question": "How can you prompt the user to enter the year?",
+                "Answer": "Using the input() function.",
+                "Hint": "Think about using the input() function to take user input.",
+                "Incorrect Response": "Using the print() function.",
+                "Feedback": "While the print() function displays output, the input() function is used for taking user input."
+            }
+        ],
+        "Facts": [
+            "A leap year is a year that is evenly divisible by 4, except for years that are divisible by 100 but not by 400.",
+            "The input year can be obtained using the input() function."
+        ],
+        "Solution": "The solution involves taking the year as input, checking the conditions for a leap year, and determining if it's a leap year."
+    },
+    {
+        "Problem": "Write a Python program to find the maximum of two numbers.",
+        "SubProblems": [
+            {
+                "Question": "How can you compare two numbers to find the maximum?",
+                "Answer": "By using comparison operators like greater than (>) or less than (<).",
+                "Hint": "Consider using comparison operators to compare the two numbers.",
+                "Incorrect Response": "By adding the numbers together.",
+                "Feedback": "Adding the numbers together doesn't determine which one is larger; you need to use comparison operators."
+            },
+            {
+                "Question": "How can you extend the comparison to handle negative numbers?",
+                "Answer": "By considering negative numbers along with positive numbers.",
+                "Hint": "Think about how negative numbers fit into the comparison process.",
+                "Incorrect Response": "By ignoring negative numbers.",
+                "Feedback": "Negative numbers should be included in the comparison process to find the maximum."
+            }
+        ],
+        "Facts": [
+            "The maximum of two numbers can be found by comparing them using comparison operators.",
+            "Negative numbers should be considered along with positive numbers when finding the maximum."
+        ],
+        "Solution": "The solution involves comparing two numbers using comparison operators to find the maximum."
+    },
+    {
+        "Problem": "Write a Python program to check if a given number is a prime number.",
+        "SubProblems": [
+            {
+                "Question": "What are the conditions for a number to be prime?",
+                "Answer": "It should be greater than 1 and not divisible by any number other than 1 and itself.",
+                "Hint": "Consider the conditions involving divisibility by other numbers.",
+                "Incorrect Response": "It should be greater than 1 and divisible by 2.",
+                "Feedback": "A prime number should not be divisible by any number other than 1 and itself."
+            },
+            {
+                "Question": "How can you efficiently check for divisibility by other numbers?",
+                "Answer": "By using a loop to check divisibility up to the square root of the number.",
+                "Hint": "Think about limiting the range of numbers to check for divisibility.",
+                "Incorrect Response": "By checking divisibility up to the number itself.",
+                "Feedback": "Checking divisibility up to the number itself is less efficient compared to limiting it to the square root of the number."
+            }
+        ],
+        "Facts": [
+            "A prime number is greater than 1 and not divisible by any number other than 1 and itself.",
+            "Efficiently checking for divisibility involves limiting the range of numbers to check."
+        ],
+        "Solution": "The solution involves checking if the number is greater than 1 and not divisible by any number other than 1 and itself using a loop."
+    },
+    {
+        "Problem": "Write a Python program to find the factorial of a given number.",
+        "SubProblems": [
+            {
+                "Question": "How can you calculate the factorial of a number?",
+                "Answer": "By multiplying all positive integers up to the given number.",
+                "Hint": "Consider how you can multiply all positive integers up to the given number.",
+                "Incorrect Response": "By adding all positive integers up to the given number.",
+                "Feedback": "Factorial involves multiplication, not addition, of positive integers."
+            },
+            {
+                "Question": "How can you handle the case when the input number is 0?",
+                "Answer": "By returning 1, as the factorial of 0 is defined as 1.",
+                "Hint": "Think about the special case of 0 and its factorial value.",
+                "Incorrect Response": "By returning 0, as 0 factorial is 0.",
+                "Feedback": "The factorial of 0 is defined as 1, not 0."
+            }
+        ],
+        "Facts": [
+            "The factorial of a non-negative integer n is the product of all positive integers less than or equal to n.",
+            "The factorial of 0 is defined as 1."
+        ],
+        "Solution": "The solution involves multiplying all positive integers up to the given number to find its factorial."
+    },
+    {
+        "Problem": "Write a Python program to check if a given number is a perfect square.",
+        "SubProblems": [
+            {
+                "Question": "What is the definition of a perfect square?",
+                "Answer": "A number that is the square of an integer.",
+                "Hint": "Consider how you can express a perfect square as the square of an integer.",
+                "Incorrect Response": "A number that is the sum of two consecutive integers.",
+                "Feedback": "A perfect square is the square of an integer, not the sum of two consecutive integers."
+            },
+            {
+                "Question": "How can you efficiently check if a number is a perfect square?",
+                "Answer": "By finding the square root of the number and checking if it's an integer.",
+                "Hint": "Think about how you can use the properties of perfect squares to check efficiently.",
+                "Incorrect Response": "By checking if the number is divisible by its square root.",
+                "Feedback": "Divisibility by the square root does not guarantee that the number is a perfect square."
+            }
+        ],
+        "Facts": [
+            "A perfect square is a number that is the square of an integer.",
+            "Efficiently checking for perfect squares involves finding the square root of the number and checking if it's an integer."
+        ],
+        "Solution": "The solution involves finding the square root of the number and checking if it's an integer to determine if the number is a perfect square."
+    }
+]
