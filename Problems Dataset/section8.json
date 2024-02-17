@@ -1,0 +1,218 @@
+[
+    {
+        "Problem": "Write a Python program to handle the ZeroDivisionError exception.",
+        "SubProblems": [
+            {
+                "Question": "What causes a ZeroDivisionError in Python?",
+                "Answer": "Dividing a number by zero.",
+                "Hint": "Consider the arithmetic operation that leads to this error.",
+                "Incorrect Response": "Multiplying a number by zero.",
+                "Feedback": "Multiplying a number by zero results in zero, not a ZeroDivisionError; the error occurs when dividing by zero."
+            },
+            {
+                "Question": "How can you prevent a ZeroDivisionError?",
+                "Answer": "By adding conditional statements to check for zero denominators.",
+                "Hint": "Think about how you can avoid division by zero.",
+                "Incorrect Response": "By catching the exception with try-except blocks.",
+                "Feedback": "While try-except blocks can handle the error, preventing it is preferable; add conditional statements to avoid division by zero."
+            }
+        ],
+        "Facts": [
+            "A ZeroDivisionError occurs when dividing a number by zero in Python.",
+            "You can prevent ZeroDivisionError by adding conditional statements to check for zero denominators."
+        ],
+        "Solution": "The solution involves defining a function that takes two numbers as input, adds conditional statements to check for zero denominators, and handles ZeroDivisionError using try-except blocks."
+    },
+    {
+        "Problem": "Write a Python program to handle the FileNotFoundError exception.",
+        "SubProblems": [
+            {
+                "Question": "When does a FileNotFoundError occur?",
+                "Answer": "When trying to access a file that does not exist.",
+                "Hint": "Consider the situation where the file you're trying to access is not present.",
+                "Incorrect Response": "When trying to read an empty file.",
+                "Feedback": "Reading an empty file does not raise FileNotFoundError; it occurs when trying to access a non-existent file."
+            },
+            {
+                "Question": "How can you handle a FileNotFoundError?",
+                "Answer": "By using try-except blocks to catch the exception.",
+                "Hint": "Think about the structure used to catch and handle exceptions in Python.",
+                "Incorrect Response": "By creating an empty file.",
+                "Feedback": "Creating an empty file does not handle FileNotFoundError; use try-except blocks to catch and handle the exception."
+            }
+        ],
+        "Facts": [
+            "FileNotFoundError occurs when trying to access a file that does not exist.",
+            "You can handle FileNotFoundError by using try-except blocks to catch the exception."
+        ],
+        "Solution": "The solution involves defining a function that takes a filename as input, attempts to access the file, and handles FileNotFoundError using try-except blocks."
+    },
+    {
+        "Problem": "Write a Python program to handle the TypeError exception.",
+        "SubProblems": [
+            {
+                "Question": "When does a TypeError occur?",
+                "Answer": "When an operation or function is applied to an object of inappropriate type.",
+                "Hint": "Consider the situation where you perform an operation on incompatible data types.",
+                "Incorrect Response": "When dividing a string by an integer.",
+                "Feedback": "Division between a string and an integer results in a different error; TypeError occurs with incompatible operations on data types."
+            },
+            {
+                "Question": "How can you prevent a TypeError?",
+                "Answer": "By ensuring proper data type compatibility before performing operations.",
+                "Hint": "Think about how you can validate data types before using them in operations.",
+                "Incorrect Response": "By using try-except blocks to catch the exception.",
+                "Feedback": "While try-except blocks can handle the error, it's preferable to prevent it by ensuring proper data type compatibility."
+            }
+        ],
+        "Facts": [
+            "TypeError occurs when performing operations or functions on objects of inappropriate types.",
+            "You can prevent TypeError by ensuring proper data type compatibility before performing operations."
+        ],
+        "Solution": "The solution involves defining a function that performs an operation on data, validates data type compatibility, and handles TypeError using try-except blocks."
+    },
+    {
+        "Problem": "Write a Python program to handle the ValueError exception.",
+        "SubProblems": [
+            {
+                "Question": "When does a ValueError occur?",
+                "Answer": "When a built-in operation or function receives an argument with the right type but an inappropriate value.",
+                "Hint": "Consider the situation where the data type is correct, but the value is invalid.",
+                "Incorrect Response": "When trying to access an index beyond the bounds of a list.",
+                "Feedback": "Accessing an index beyond the bounds of a list raises an IndexError, not a ValueError; ValueError occurs with inappropriate values."
+            },
+            {
+                "Question": "How can you handle a ValueError?",
+                "Answer": "By using try-except blocks to catch the exception.",
+                "Hint": "Think about the structure used to catch and handle exceptions in Python.",
+                "Incorrect Response": "By converting the value to the appropriate type.",
+                "Feedback": "Converting the value to the appropriate type does not handle ValueError; use try-except blocks to catch and handle the exception."
+            }
+        ],
+        "Facts": [
+            "ValueError occurs when a built-in operation or function receives an argument with an inappropriate value.",
+            "You can handle ValueError by using try-except blocks to catch the exception."
+        ],
+        "Solution": "The solution involves defining a function that performs an operation with data, catches and handles ValueError using try-except blocks."
+    },
+    {
+        "Problem": "Write a Python program to handle the IndexError exception.",
+        "SubProblems": [
+            {
+                "Question": "When does an IndexError occur?",
+                "Answer": "When trying to access an index that does not exist in a sequence.",
+                "Hint": "Consider the situation where you attempt to access elements beyond the range of a sequence.",
+                "Incorrect Response": "When trying to access an element with a negative index.",
+                "Feedback": "Accessing elements with negative indices is valid and does not raise IndexError; it occurs when accessing non-existent indices."
+            },
+            {
+                "Question": "How can you prevent an IndexError?",
+                "Answer": "By ensuring that index values are within the bounds of the sequence.",
+                "Hint": "Think about how you can validate indices before accessing elements.",
+                "Incorrect Response": "By using try-except blocks to catch the exception.",
+                "Feedback": "While try-except blocks can handle the error, it's preferable to prevent it by ensuring indices are within bounds."
+            }
+        ],
+        "Facts": [
+            "IndexError occurs when trying to access an index that does not exist in a sequence.",
+            "You can prevent IndexError by ensuring that index values are within the bounds of the sequence."
+        ],
+        "Solution": "The solution involves defining a function that accesses elements in a sequence, validates index values, and handles IndexError using try-except blocks."
+    },
+    {
+        "Problem": "Write a Python program to handle the KeyError exception.",
+        "SubProblems": [
+            {
+                "Question": "When does a KeyError occur?",
+                "Answer": "When trying to access a key that does not exist in a dictionary.",
+                "Hint": "Consider the situation where you attempt to access non-existent keys in a dictionary.",
+                "Incorrect Response": "When trying to access a key with a negative value.",
+                "Feedback": "Keys in dictionaries cannot have negative values; KeyError occurs when accessing non-existent keys."
+            },
+            {
+                "Question": "How can you handle a KeyError?",
+                "Answer": "By using try-except blocks to catch the exception.",
+                "Hint": "Think about the structure used to catch and handle exceptions in Python.",
+                "Incorrect Response": "By checking if the key exists before accessing it.",
+                "Feedback": "While checking if the key exists is a good practice, it's not the solution to handling KeyError; use try-except blocks to catch and handle the exception."
+            }
+        ],
+        "Facts": [
+            "KeyError occurs when trying to access a key that does not exist in a dictionary.",
+            "You can handle KeyError by using try-except blocks to catch the exception."
+        ],
+        "Solution": "The solution involves defining a function that accesses keys in a dictionary, catches and handles KeyError using try-except blocks."
+    },
+    {
+        "Problem": "Write a Python program to handle the AttributeError exception.",
+        "SubProblems": [
+            {
+                "Question": "When does an AttributeError occur?",
+                "Answer": "When trying to access or modify an attribute that does not exist for a given object.",
+                "Hint": "Consider the situation where you attempt to access non-existent attributes of an object.",
+                "Incorrect Response": "When trying to access an attribute with a wrong data type.",
+                "Feedback": "AttributeError occurs when the attribute itself does not exist, regardless of the data type; it's not related to incorrect data types."
+            },
+            {
+                "Question": "How can you handle an AttributeError?",
+                "Answer": "By using try-except blocks to catch the exception.",
+                "Hint": "Think about the structure used to catch and handle exceptions in Python.",
+                "Incorrect Response": "By assigning a default value to the attribute.",
+                "Feedback": "Assigning a default value does not handle AttributeError; use try-except blocks to catch and handle the exception."
+            }
+        ],
+        "Facts": [
+            "AttributeError occurs when trying to access or modify a non-existent attribute of an object.",
+            "You can handle AttributeError by using try-except blocks to catch the exception."
+        ],
+        "Solution": "The solution involves defining a function that accesses or modifies attributes of an object, catches and handles AttributeError using try-except blocks."
+    },
+    {
+        "Problem": "Write a Python program to handle the KeyboardInterrupt exception.",
+        "SubProblems": [
+            {
+                "Question": "When does a KeyboardInterrupt occur?",
+                "Answer": "When the user interrupts the execution of the program, typically by pressing Ctrl+C.",
+                "Hint": "Consider the action that the user performs to trigger this exception.",
+                "Incorrect Response": "When the program runs out of memory.",
+                "Feedback": "Running out of memory raises a MemoryError, not a KeyboardInterrupt; the latter occurs when the user interrupts program execution."
+            },
+            {
+                "Question": "How can you handle a KeyboardInterrupt?",
+                "Answer": "By using try-except blocks to catch the exception and gracefully exit the program.",
+                "Hint": "Think about how you can handle user interruptions to ensure a smooth exit.",
+                "Incorrect Response": "By ignoring the exception and continuing program execution.",
+                "Feedback": "Ignoring the KeyboardInterrupt may lead to unexpected behavior; handle it gracefully using try-except blocks to exit the program."
+            }
+        ],
+        "Facts": [
+            "KeyboardInterrupt occurs when the user interrupts program execution, typically by pressing Ctrl+C.",
+            "You can handle KeyboardInterrupt by using try-except blocks to catch the exception and gracefully exit the program."
+        ],
+        "Solution": "The solution involves defining a program that runs indefinitely until interrupted by the user, catching and handling KeyboardInterrupt using try-except blocks to ensure a graceful exit."
+    },
+    {
+        "Problem": "Write a Python program to handle multiple exceptions with a single except clause.",
+        "SubProblems": [
+            {
+                "Question": "How can you catch multiple exceptions in Python?",
+                "Answer": "By specifying multiple exception types in a single except clause.",
+                "Hint": "Consider the syntax used to handle multiple exceptions together.",
+                "Incorrect Response": "By defining separate except blocks for each exception type.",
+                "Feedback": "Defining separate except blocks for each exception type can be cumbersome; use a single except clause with multiple exception types."
+            },
+            {
+                "Question": "How can you ensure specific handling for different exceptions?",
+                "Answer": "By checking the type of the caught exception within the except block.",
+                "Hint": "Think about how you can distinguish between different types of exceptions within a single except block.",
+                "Incorrect Response": "By using try-except blocks for each exception separately.",
+                "Feedback": "Using try-except blocks separately for each exception may result in redundant code; use type checking within a single except block for specific handling."
+            }
+        ],
+        "Facts": [
+            "You can handle multiple exceptions with a single except clause in Python.",
+            "Specific handling for different exceptions can be achieved by checking the type of the caught exception within the except block."
+        ],
+        "Solution": "The solution involves defining a function that attempts operations that may raise multiple types of exceptions, catching and handling them with a single except clause."
+    }
+]
