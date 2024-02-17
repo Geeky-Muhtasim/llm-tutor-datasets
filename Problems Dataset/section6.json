@@ -430,5 +430,245 @@
             "Sets automatically eliminate duplicates, making them useful for set operations like intersection."
         ],
         "Solution": "The solution involves defining a function that takes two lists as input, converts them to sets, finds the intersection using set operations, then converts the result back to a list."
+    },
+    {
+        "Problem": "Write a Python program to check if a value exists in a set.",
+        "SubProblems": [
+            {
+                "Question": "How can you access elements in a set?",
+                "Answer": "By using the 'in' keyword.",
+                "Hint": "Consider the operator used to check for membership in a set.",
+                "Incorrect Response": "By using indexes.",
+                "Feedback": "Sets are unordered collections, and elements cannot be accessed by indexes; use the 'in' keyword to check for membership."
+            },
+            {
+                "Question": "How can you efficiently check for membership in a set?",
+                "Answer": "By using the 'in' keyword.",
+                "Hint": "Think about the available methods to verify if an element exists in a set.",
+                "Incorrect Response": "By using the has() method.",
+                "Feedback": "Sets in Python do not have a has() method; use the 'in' keyword to check for membership."
+            }
+        ],
+        "Facts": [
+            "Sets in Python are unordered collections of unique elements.",
+            "You can check if a value exists in a set using the 'in' keyword."
+        ],
+        "Solution": "The solution involves defining a function that takes a set and a value as input and checks if the value exists in the set using the 'in' keyword."
+    },
+    {
+        "Problem": "Write a Python program to find the union of two sets.",
+        "SubProblems": [
+            {
+                "Question": "How can you combine two sets into one?",
+                "Answer": "By using the union() method or the '|' operator.",
+                "Hint": "Consider the available methods to combine elements from two sets.",
+                "Incorrect Response": "By using the merge() method.",
+                "Feedback": "While sets do not have a merge() method, you can use the union() method or the '|' operator to combine sets."
+            },
+            {
+                "Question": "How can you efficiently find the union of multiple sets?",
+                "Answer": "By using the '|' operator.",
+                "Hint": "Think about the operator used to perform the union operation on sets.",
+                "Incorrect Response": "By using the append() method.",
+                "Feedback": "The append() method is used for lists, not sets; use the '|' operator to efficiently find the union of sets."
+            }
+        ],
+        "Facts": [
+            "The union of two sets contains all unique elements from both sets.",
+            "You can find the union of sets using the union() method or the '|' operator."
+        ],
+        "Solution": "The solution involves defining a function that takes two sets as input and finds their union using the union() method or the '|' operator."
+    },
+    {
+        "Problem": "Write a Python program to find the intersection of two sets.",
+        "SubProblems": [
+            {
+                "Question": "How can you find common elements between two sets?",
+                "Answer": "By using the intersection() method or the '&' operator.",
+                "Hint": "Consider the available methods to find common elements between sets.",
+                "Incorrect Response": "By using the intersect() method.",
+                "Feedback": "Sets do not have an intersect() method; you can use the intersection() method or the '&' operator instead."
+            },
+            {
+                "Question": "How can you efficiently find the intersection of multiple sets?",
+                "Answer": "By using the '&' operator.",
+                "Hint": "Think about the operator used to perform the intersection operation on sets.",
+                "Incorrect Response": "By using the add() method.",
+                "Feedback": "The add() method adds elements to a set; to find the intersection, use the '&' operator."
+            }
+        ],
+        "Facts": [
+            "The intersection of two sets contains elements common to both sets.",
+            "You can find the intersection of sets using the intersection() method or the '&' operator."
+        ],
+        "Solution": "The solution involves defining a function that takes two sets as input and finds their intersection using the intersection() method or the '&' operator."
+    },
+    {
+        "Problem": "Write a Python program to find the difference between two sets.",
+        "SubProblems": [
+            {
+                "Question": "How can you find elements present in one set but not the other?",
+                "Answer": "By using the difference() method or the '-' operator.",
+                "Hint": "Consider the available methods to find the set of elements present in one set but not the other.",
+                "Incorrect Response": "By using the subtract() method.",
+                "Feedback": "Sets do not have a subtract() method; you can use the difference() method or the '-' operator instead."
+            },
+            {
+                "Question": "How can you efficiently find the difference between multiple sets?",
+                "Answer": "By using the '-' operator.",
+                "Hint": "Think about the operator used to perform the set difference operation.",
+                "Incorrect Response": "By using the remove() method.",
+                "Feedback": "The remove() method removes specific elements from a set; to find the difference, use the '-' operator."
+            }
+        ],
+        "Facts": [
+            "The difference between two sets contains elements present in one set but not the other.",
+            "You can find the difference between sets using the difference() method or the '-' operator."
+        ],
+        "Solution": "The solution involves defining a function that takes two sets as input and finds their difference using the difference() method or the '-' operator."
+    },
+    {
+        "Problem": "Write a Python program to find the symmetric difference between two sets.",
+        "SubProblems": [
+            {
+                "Question": "How can you find elements present in one set or the other, but not both?",
+                "Answer": "By using the symmetric_difference() method or the '^' operator.",
+                "Hint": "Consider the available methods to find the symmetric difference between sets.",
+                "Incorrect Response": "By using the exclusive_or() method.",
+                "Feedback": "Sets do not have an exclusive_or() method; you can use the symmetric_difference() method or the '^' operator instead."
+            },
+            {
+                "Question": "How can you efficiently find the symmetric difference between multiple sets?",
+                "Answer": "By using the '^' operator.",
+                "Hint": "Think about the operator used to perform the symmetric difference operation.",
+                "Incorrect Response": "By using the union() method.",
+                "Feedback": "The union() method combines elements from sets; to find the symmetric difference, use the '^' operator."
+            }
+        ],
+        "Facts": [
+            "The symmetric difference between two sets contains elements present in one set or the other, but not both.",
+            "You can find the symmetric difference between sets using the symmetric_difference() method or the '^' operator."
+        ],
+        "Solution": "The solution involves defining a function that takes two sets as input and finds their symmetric difference using the symmetric_difference() method or the '^' operator."
+    },
+    {
+        "Problem": "Write a Python program to add an element to a set.",
+        "SubProblems": [
+            {
+                "Question": "How can you add a new element to a set?",
+                "Answer": "By using the add() method.",
+                "Hint": "Consider the available methods to add elements to a set.",
+                "Incorrect Response": "By using the insert() method.",
+                "Feedback": "The insert() method is used for lists; to add elements to a set, use the add() method."
+            },
+            {
+                "Question": "How can you handle cases where the element already exists in the set?",
+                "Answer": "By not raising an error; sets automatically maintain unique elements.",
+                "Hint": "Think about how sets automatically handle uniqueness.",
+                "Incorrect Response": "By overwriting the existing element.",
+                "Feedback": "Sets automatically maintain unique elements; adding an existing element has no effect."
+            }
+        ],
+        "Facts": [
+            "Sets in Python are unordered collections of unique elements.",
+            "You can add elements to a set using the add() method."
+        ],
+        "Solution": "The solution involves defining a function that takes a set and an element as input and adds the element to the set using the add() method."
+    },
+    {
+        "Problem": "Write a Python program to remove an element from a set.",
+        "SubProblems": [
+            {
+                "Question": "How can you remove an element from a set?",
+                "Answer": "By using the remove() method or the discard() method.",
+                "Hint": "Consider the available methods to remove elements from a set.",
+                "Incorrect Response": "By using the delete() method.",
+                "Feedback": "There is no delete() method for sets; use the remove() method or the discard() method instead."
+            },
+            {
+                "Question": "How can you handle cases where the element doesn't exist in the set?",
+                "Answer": "By using the discard() method, which does not raise an error.",
+                "Hint": "Think about how you can avoid errors when trying to remove a non-existent element.",
+                "Incorrect Response": "By ignoring the error raised by remove().",
+                "Feedback": "Ignoring errors may lead to unexpected behavior; use the discard() method to safely remove elements."
+            }
+        ],
+        "Facts": [
+            "You can remove elements from a set using the remove() method or the discard() method.",
+            "The remove() method raises a KeyError if the element does not exist, while discard() does not."
+        ],
+        "Solution": "The solution involves defining a function that takes a set and an element as input and removes the element using the remove() method or the discard() method."
+    },
+    {
+        "Problem": "Write a Python program to clear all elements from a set.",
+        "SubProblems": [
+            {
+                "Question": "How can you remove all elements from a set?",
+                "Answer": "By using the clear() method.",
+                "Hint": "Consider the available methods to remove all elements from a set.",
+                "Incorrect Response": "By using the pop() method.",
+                "Feedback": "The pop() method removes and returns an arbitrary element; to clear all elements, use the clear() method."
+            },
+            {
+                "Question": "How can you verify that a set is empty?",
+                "Answer": "By checking if its length is 0.",
+                "Hint": "Think about how you can determine if a set has no elements.",
+                "Incorrect Response": "By using the is_empty() method.",
+                "Feedback": "There is no is_empty() method for sets; check if the length is 0 instead."
+            }
+        ],
+        "Facts": [
+            "You can remove all elements from a set using the clear() method.",
+            "An empty set has a length of 0."
+        ],
+        "Solution": "The solution involves defining a function that takes a set as input and clears all its elements using the clear() method."
+    },
+    {
+        "Problem": "Write a Python program to create a shallow copy of a set.",
+        "SubProblems": [
+            {
+                "Question": "How can you create a copy of a set?",
+                "Answer": "By using the copy() method.",
+                "Hint": "Consider the available methods to create copies of sets.",
+                "Incorrect Response": "By using the deepcopy() method.",
+                "Feedback": "The deepcopy() method is used for deep copying, which is not necessary for sets; use the copy() method to create a shallow copy."
+            },
+            {
+                "Question": "How can you verify that the copy is shallow?",
+                "Answer": "By modifying the original set and checking if it affects the copy.",
+                "Hint": "Think about how you can test whether the copy shares references with the original.",
+                "Incorrect Response": "By checking the size of the copy.",
+                "Feedback": "Checking the size does not verify if the copy is shallow; test by modifying the original and checking if it affects the copy."
+            }
+        ],
+        "Facts": [
+            "A shallow copy of a set creates a new set containing the same elements.",
+            "The copy() method creates a shallow copy of a set."
+        ],
+        "Solution": "The solution involves defining a function that takes a set as input and creates a shallow copy of it using the copy() method."
+    },
+    {
+        "Problem": "Write a Python program to create a deep copy of a set.",
+        "SubProblems": [
+            {
+                "Question": "How can you create a copy of a set?",
+                "Answer": "By using the copy() method.",
+                "Hint": "Consider the available methods to create copies of sets.",
+                "Incorrect Response": "By using the deepcopy() method.",
+                "Feedback": "The deepcopy() method is used for deep copying, which is not necessary for sets; use the copy() method to create a shallow copy."
+            },
+            {
+                "Question": "How can you convert a shallow copy into a deep copy?",
+                "Answer": "By recursively copying nested structures.",
+                "Hint": "Think about how you can ensure that all nested structures are also copied.",
+                "Incorrect Response": "By using the set() constructor.",
+                "Feedback": "Using the set() constructor creates a new set; to convert a shallow copy into a deep copy, recursively copy nested structures."
+            }
+        ],
+        "Facts": [
+            "A deep copy of a set creates a new set containing copies of its elements.",
+            "To create a deep copy of a set, recursively copy nested structures."
+        ],
+        "Solution": "The solution involves defining a function that takes a set as input and creates a deep copy of it by recursively copying nested structures."
     }
 ]
