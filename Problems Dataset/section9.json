@@ -1,0 +1,434 @@
+[
+    {
+        "Problem": "Explain what a Python module is and how it is used.",
+        "SubProblems": [
+            {
+                "Question": "What is a Python module?",
+                "Answer": "A Python file containing Python code, typically defining functions, classes, and variables.",
+                "Hint": "Consider the purpose and contents of Python modules.",
+                "Incorrect Response": "A Python built-in function.",
+                "Feedback": "While Python has built-in functions, a module is a Python file containing code; it defines functions, classes, and variables."
+            },
+            {
+                "Question": "How is a Python module used?",
+                "Answer": "By importing it into other Python scripts or modules using the import statement.",
+                "Hint": "Think about how Python code from modules is accessed and utilized in other scripts.",
+                "Incorrect Response": "By directly executing it using the run() function.",
+                "Feedback": "While Python code can be executed directly, modules are typically imported into other scripts using the import statement for reuse."
+            }
+        ],
+        "Facts": [
+            "A Python module is a Python file containing Python code.",
+            "Modules are used by importing them into other Python scripts or modules using the import statement."
+        ],
+        "Solution": "The solution involves explaining that a Python module is a file containing Python code, and it is used by importing it into other scripts or modules using the import statement."
+    },
+    {
+        "Problem": "Describe the structure of a Python package and its purpose.",
+        "SubProblems": [
+            {
+                "Question": "What is a Python package?",
+                "Answer": "A directory containing Python modules and an __init__.py file.",
+                "Hint": "Think about how Python organizes multiple modules.",
+                "Incorrect Response": "A single Python module.",
+                "Feedback": "While a single module contains Python code, a package is a directory containing multiple modules and an __init__.py file."
+            },
+            {
+                "Question": "What is the purpose of a Python package?",
+                "Answer": "To organize and distribute related Python modules as a single unit.",
+                "Hint": "Consider why Python uses packages and how they help organize code.",
+                "Incorrect Response": "To execute Python scripts.",
+                "Feedback": "While Python scripts can be executed directly, packages are primarily used to organize and distribute related modules as a single unit for reuse."
+            }
+        ],
+        "Facts": [
+            "A Python package is a directory containing Python modules and an __init__.py file.",
+            "The purpose of a Python package is to organize and distribute related Python modules as a single unit."
+        ],
+        "Solution": "The solution involves describing that a Python package is a directory containing modules and an __init__.py file, and its purpose is to organize and distribute related modules as a single unit."
+    },
+    {
+        "Problem": "Explain the difference between absolute and relative imports in Python.",
+        "SubProblems": [
+            {
+                "Question": "What is an absolute import in Python?",
+                "Answer": "An import statement that specifies the full path from the root directory to the module or package being imported.",
+                "Hint": "Consider how absolute imports are specified in Python scripts.",
+                "Incorrect Response": "An import statement that specifies a partial path from the current directory.",
+                "Feedback": "Absolute imports specify the full path from the root directory to the module or package, not a partial path from the current directory."
+            },
+            {
+                "Question": "What is a relative import in Python?",
+                "Answer": "An import statement that specifies the path to the module or package relative to the current module.",
+                "Hint": "Think about how relative imports are specified in Python scripts.",
+                "Incorrect Response": "An import statement that specifies the full path from the root directory.",
+                "Feedback": "Relative imports specify the path to the module or package relative to the current module, not the full path from the root directory."
+            }
+        ],
+        "Facts": [
+            "An absolute import in Python specifies the full path from the root directory to the module or package being imported.",
+            "A relative import in Python specifies the path to the module or package relative to the current module."
+        ],
+        "Solution": "The solution involves explaining the difference between absolute and relative imports in Python, where absolute imports specify the full path from the root directory, and relative imports specify the path relative to the current module."
+    },
+    {
+        "Problem": "Discuss the concept of namespaces in Python modules and packages.",
+        "SubProblems": [
+            {
+                "Question": "What is a namespace in Python?",
+                "Answer": "A mapping from names to objects, providing a way to organize and encapsulate code.",
+                "Hint": "Consider how names are used to refer to objects in Python.",
+                "Incorrect Response": "A data type in Python.",
+                "Feedback": "While Python has various data types, a namespace is a mapping from names to objects, facilitating organization and encapsulation of code."
+            },
+            {
+                "Question": "How are namespaces used in Python modules and packages?",
+                "Answer": "To avoid naming conflicts and provide a hierarchy of names for accessing objects.",
+                "Hint": "Think about how namespaces help organize and manage names in Python code.",
+                "Incorrect Response": "To enforce data encapsulation.",
+                "Feedback": "While namespaces contribute to encapsulation, their primary role is to prevent naming conflicts and provide a hierarchy of names for accessing objects."
+            }
+        ],
+        "Facts": [
+            "A namespace in Python is a mapping from names to objects.",
+            "Namespaces in Python modules and packages help avoid naming conflicts and provide a hierarchy of names for accessing objects."
+        ],
+        "Solution": "The solution involves discussing that a namespace in Python is a mapping from names to objects and explaining how namespaces in modules and packages prevent naming conflicts and provide a hierarchy of names for accessing objects."
+    },
+    {
+        "Problem": "Illustrate how to create and use a Python module.",
+        "SubProblems": [
+            {
+                "Question": "How do you create a Python module?",
+                "Answer": "By creating a Python file with a .py extension containing Python code.",
+                "Hint": "Consider the file structure and contents of a Python module.",
+                "Incorrect Response": "By creating a directory containing Python files.",
+                "Feedback": "While directories can contain Python modules, a module itself is a Python file with a .py extension."
+            },
+            {
+                "Question": "How do you use a Python module?",
+                "Answer": "By importing it into other Python scripts using the import statement.",
+                "Hint": "Think about how Python code from modules is accessed and utilized in other scripts.",
+                "Incorrect Response": "By executing it directly using the run() function.",
+                "Feedback": "While Python code can be executed directly, modules are typically imported into other scripts using the import statement for reuse."
+            }
+        ],
+        "Facts": [
+            "A Python module is created by creating a Python file with a .py extension containing Python code.",
+            "Python modules are used by importing them into other Python scripts using the import statement."
+        ],
+        "Solution": "The solution involves illustrating that a Python module is created by creating a Python file with a .py extension containing code, and it is used by importing it into other scripts using the import statement."
+    },
+    {
+        "Problem": "Demonstrate how to create and use a Python package.",
+        "SubProblems": [
+            {
+                "Question": "How do you create a Python package?",
+                "Answer": "By creating a directory containing Python modules and an __init__.py file.",
+                "Hint": "Consider the file structure and contents required for a Python package.",
+                "Incorrect Response": "By creating a single Python module.",
+                "Feedback": "While a single module is a Python module, a package consists of a directory containing modules and an __init__.py file."
+            },
+            {
+                "Question": "How do you use a Python package?",
+                "Answer": "By importing modules from the package into other Python scripts or packages using the import statement.",
+                "Hint": "Think about how modules within a package are accessed and utilized in other scripts or packages.",
+                "Incorrect Response": "By executing the package directory using the run() function.",
+                "Feedback": "While directories can contain packages, modules within a package are typically imported into other scripts or packages using the import statement for reuse."
+            }
+        ],
+        "Facts": [
+            "A Python package is created by creating a directory containing Python modules and an __init__.py file.",
+            "Python packages are used by importing modules from the package into other Python scripts or packages using the import statement."
+        ],
+        "Solution": "The solution involves demonstrating that a Python package is created by creating a directory with modules and an __init__.py file, and it is used by importing modules from the package into other scripts using the import statement."
+    },
+    {
+        "Problem": "Explain the purpose and usage of the __init__.py file in a Python package.",
+        "SubProblems": [
+            {
+                "Question": "What is the purpose of the __init__.py file in a Python package?",
+                "Answer": "To indicate that the directory should be treated as a Python package and to execute initialization code.",
+                "Hint": "Think about why the __init__.py file is required in a Python package.",
+                "Incorrect Response": "To specify Python version compatibility.",
+                "Feedback": "While Python version compatibility can be specified in various ways, the __init__.py file indicates that the directory is a package and executes initialization code."
+            },
+            {
+                "Question": "How is the __init__.py file used in a Python package?",
+                "Answer": "To define package-level initialization code, import statements, and control what is exported from the package.",
+                "Hint": "Consider the contents and functionality of the __init__.py file.",
+                "Incorrect Response": "To execute Python scripts within the package.",
+                "Feedback": "While Python scripts can be executed directly, the __init__.py file in a package typically contains package-level initialization code and controls what is exported."
+            }
+        ],
+        "Facts": [
+            "The __init__.py file in a Python package indicates that the directory should be treated as a package and executes initialization code.",
+            "The __init__.py file in a Python package is used to define package-level initialization code, import statements, and control what is exported from the package."
+        ],
+        "Solution": "The solution involves explaining that the __init__.py file in a Python package indicates that the directory is a package and executes initialization code, and it is used to define package-level initialization code, import statements, and control what is exported."
+    },
+    {
+        "Problem": "Discuss how to import modules and packages in Python.",
+        "SubProblems": [
+            {
+                "Question": "What is the syntax for importing a module in Python?",
+                "Answer": "import module_name",
+                "Hint": "Consider how modules are referenced and imported in Python scripts.",
+                "Incorrect Response": "import module_name.py",
+                "Feedback": "When importing a module, you only specify the module name without the .py extension."
+            },
+            {
+                "Question": "What is the syntax for importing specific attributes from a module?",
+                "Answer": "from module_name import attribute1, attribute2",
+                "Hint": "Think about how to import specific functions or variables from a module.",
+                "Incorrect Response": "from module_name import *",
+                "Feedback": "Using * imports all attributes from the module; to import specific attributes, list them explicitly after the import statement."
+            }
+        ],
+        "Facts": [
+            "Modules are imported in Python using the import statement followed by the module name.",
+            "Specific attributes from a module can be imported using the from...import statement followed by the attribute names."
+        ],
+        "Solution": "The solution involves discussing that modules are imported in Python using the import statement followed by the module name, and specific attributes from a module can be imported using the from...import statement followed by the attribute names."
+    },
+    {
+        "Problem": "Explain the concept of relative and absolute imports in Python and how to use them.",
+        "SubProblems": [
+            {
+                "Question": "What is a relative import in Python?",
+                "Answer": "An import statement that specifies the path to the module or package relative to the current module.",
+                "Hint": "Consider how relative imports are specified in Python scripts.",
+                "Incorrect Response": "An import statement that specifies the full path from the root directory.",
+                "Feedback": "Relative imports specify the path to the module or package relative to the current module, not the full path from the root directory."
+            },
+            {
+                "Question": "What is an absolute import in Python?",
+                "Answer": "An import statement that specifies the full path from the root directory to the module or package being imported.",
+                "Hint": "Consider how absolute imports are specified in Python scripts.",
+                "Incorrect Response": "An import statement that specifies a partial path from the current directory.",
+                "Feedback": "Absolute imports specify the full path from the root directory to the module or package, not a partial path from the current directory."
+            }
+        ],
+        "Facts": [
+            "A relative import in Python specifies the path to the module or package relative to the current module.",
+            "An absolute import in Python specifies the full path from the root directory to the module or package being imported."
+        ],
+        "Solution": "The solution involves explaining the concepts of relative and absolute imports in Python, where relative imports specify the path relative to the current module, and absolute imports specify the full path from the root directory."
+    },
+    {
+        "Problem": "Write a Python program to check if a string contains a specific pattern using regular expressions.",
+        "SubProblems": [
+            {
+                "Question": "What is a regular expression?",
+                "Answer": "A sequence of characters that forms a search pattern.",
+                "Hint": "Think about the definition of regular expressions.",
+                "Incorrect Response": "A function that performs string manipulation.",
+                "Feedback": "Regular expressions are patterns used to match character combinations in strings, not functions for string manipulation."
+            },
+            {
+                "Question": "How can you apply a regular expression to a string in Python?",
+                "Answer": "By using the re module.",
+                "Hint": "Consider the module specifically designed for working with regular expressions in Python.",
+                "Incorrect Response": "By using the string module.",
+                "Feedback": "While the string module provides various string manipulation functions, for regular expressions, it's more appropriate to use the re module."
+            }
+        ],
+        "Facts": [
+            "A regular expression is a sequence of characters forming a search pattern.",
+            "Regular expressions in Python are applied using the re module."
+        ],
+        "Solution": "The solution involves defining a function that takes a string and a regular expression pattern as input, applies the pattern to the string using functions from the re module, and returns whether the pattern is found."
+    },
+    {
+        "Problem": "Write a Python program to find all occurrences of a pattern in a string using regular expressions.",
+        "SubProblems": [
+            {
+                "Question": "How can you find all occurrences of a pattern in a string?",
+                "Answer": "By using the findall() function from the re module.",
+                "Hint": "Think about the specific function provided by the re module for this purpose.",
+                "Incorrect Response": "By using the index() method.",
+                "Feedback": "The index() method finds the first occurrence of a substring; to find all occurrences using regular expressions, use the findall() function."
+            },
+            {
+                "Question": "What does the findall() function return?",
+                "Answer": "A list of all matches of the pattern in the string.",
+                "Hint": "Consider the data structure returned by the findall() function.",
+                "Incorrect Response": "A boolean value indicating whether the pattern is found.",
+                "Feedback": "The findall() function returns a list containing all matches of the pattern in the string, not a boolean value."
+            }
+        ],
+        "Facts": [
+            "To find all occurrences of a pattern in a string, use the findall() function from the re module.",
+            "The findall() function returns a list of all matches of the pattern in the string."
+        ],
+        "Solution": "The solution involves defining a function that takes a string and a regular expression pattern as input, uses the findall() function from the re module to find all occurrences of the pattern in the string, and returns them as a list."
+    },
+    {
+        "Problem": "Write a Python program to replace a specific pattern in a string using regular expressions.",
+        "SubProblems": [
+            {
+                "Question": "How can you replace a pattern in a string using regular expressions?",
+                "Answer": "By using the sub() function from the re module.",
+                "Hint": "Consider the specific function provided by the re module for string substitution.",
+                "Incorrect Response": "By using the replace() method.",
+                "Feedback": "The replace() method replaces exact substrings; for pattern-based substitution using regular expressions, use the sub() function."
+            },
+            {
+                "Question": "What does the sub() function return?",
+                "Answer": "A new string with occurrences of the pattern replaced.",
+                "Hint": "Think about the result of applying the sub() function to a string.",
+                "Incorrect Response": "A boolean value indicating whether the pattern is found.",
+                "Feedback": "The sub() function returns a new string with occurrences of the pattern replaced, not a boolean value."
+            }
+        ],
+        "Facts": [
+            "To replace a pattern in a string using regular expressions, use the sub() function from the re module.",
+            "The sub() function returns a new string with occurrences of the pattern replaced."
+        ],
+        "Solution": "The solution involves defining a function that takes a string, a regular expression pattern, and a replacement string as input, uses the sub() function from the re module to replace occurrences of the pattern in the string with the replacement, and returns the modified string."
+    },
+    {
+        "Problem": "Write a Python program to split a string based on a pattern using regular expressions.",
+        "SubProblems": [
+            {
+                "Question": "How can you split a string based on a pattern?",
+                "Answer": "By using the split() function from the re module.",
+                "Hint": "Consider the specific function provided by the re module for string splitting based on patterns.",
+                "Incorrect Response": "By using the partition() method.",
+                "Feedback": "The partition() method splits a string into three parts based on a separator; for pattern-based splitting using regular expressions, use the split() function."
+            },
+            {
+                "Question": "What does the split() function return?",
+                "Answer": "A list of strings resulting from the split.",
+                "Hint": "Think about the data structure returned by the split() function.",
+                "Incorrect Response": "A boolean value indicating whether the pattern is found.",
+                "Feedback": "The split() function returns a list of strings resulting from the split, not a boolean value."
+            }
+        ],
+        "Facts": [
+            "To split a string based on a pattern using regular expressions, use the split() function from the re module.",
+            "The split() function returns a list of strings resulting from the split."
+        ],
+        "Solution": "The solution involves defining a function that takes a string and a regular expression pattern as input, uses the split() function from the re module to split the string based on the pattern, and returns the resulting list of strings."
+    },
+    {
+        "Problem": "Write a Python program to validate email addresses using regular expressions.",
+        "SubProblems": [
+            {
+                "Question": "What are the components of a valid email address?",
+                "Answer": "A local part, the '@' symbol, and a domain part.",
+                "Hint": "Think about the structure of email addresses.",
+                "Incorrect Response": "Only a domain part.",
+                "Feedback": "Valid email addresses consist of a local part, the '@' symbol, and a domain part; missing any part makes the email address invalid."
+            },
+            {
+                "Question": "How can you validate an email address using regular expressions?",
+                "Answer": "By defining a regular expression pattern that matches the structure of a valid email address.",
+                "Hint": "Consider how you can express the structure of a valid email address using a regular expression.",
+                "Incorrect Response": "By using the match() function.",
+                "Feedback": "The match() function checks if the pattern matches at the beginning of the string; for email validation, define a regular expression pattern and use it with appropriate functions."
+            }
+        ],
+        "Facts": [
+            "Valid email addresses consist of a local part, the '@' symbol, and a domain part.",
+            "To validate email addresses using regular expressions, define a pattern that matches the structure of a valid email address."
+        ],
+        "Solution": "The solution involves defining a function that takes an email address as input, defines a regular expression pattern for valid email addresses, and checks if the input matches the pattern using functions from the re module."
+    },
+    {
+        "Problem": "Write a Python program to extract all URLs from a string using regular expressions.",
+        "SubProblems": [
+            {
+                "Question": "What is a URL?",
+                "Answer": "A Uniform Resource Locator that specifies the web address of a resource.",
+                "Hint": "Think about the definition and purpose of URLs.",
+                "Incorrect Response": "A data type in Python.",
+                "Feedback": "URLs are not a specific data type in Python but rather strings that specify web addresses of resources."
+            },
+            {
+                "Question": "How can you extract URLs from a string using regular expressions?",
+                "Answer": "By defining a regular expression pattern that matches the structure of a URL.",
+                "Hint": "Consider how you can express the structure of a URL using a regular expression.",
+                "Incorrect Response": "By using the find() function.",
+                "Feedback": "The find() function finds the first occurrence of a substring; for extracting URLs, define a regular expression pattern and use appropriate functions."
+            }
+        ],
+        "Facts": [
+            "A URL is a Uniform Resource Locator that specifies the web address of a resource.",
+            "To extract URLs from a string using regular expressions, define a pattern that matches the structure of a URL."
+        ],
+        "Solution": "The solution involves defining a function that takes a string as input, defines a regular expression pattern for URLs, and extracts URLs from the string using functions from the re module."
+    },
+    {
+        "Problem": "Write a Python program to validate IP addresses using regular expressions.",
+        "SubProblems": [
+            {
+                "Question": "What is an IP address?",
+                "Answer": "A numerical label assigned to each device connected to a computer network.",
+                "Hint": "Think about the purpose and structure of IP addresses.",
+                "Incorrect Response": "A string that identifies a website.",
+                "Feedback": "While IP addresses are used to identify devices on a network, they are numerical labels, not strings identifying websites."
+            },
+            {
+                "Question": "How can you validate an IP address using regular expressions?",
+                "Answer": "By defining a regular expression pattern that matches the structure of a valid IP address.",
+                "Hint": "Consider how you can express the structure of a valid IP address using a regular expression.",
+                "Incorrect Response": "By using the search() function.",
+                "Feedback": "The search() function searches for a pattern within a string; for IP address validation, define a regular expression pattern and use appropriate functions."
+            }
+        ],
+        "Facts": [
+            "An IP address is a numerical label assigned to each device connected to a computer network.",
+            "To validate IP addresses using regular expressions, define a pattern that matches the structure of a valid IP address."
+        ],
+        "Solution": "The solution involves defining a function that takes an IP address as input, defines a regular expression pattern for valid IP addresses, and checks if the input matches the pattern using functions from the re module."
+    },
+    {
+        "Problem": "Write a Python program to extract dates from a string using regular expressions.",
+        "SubProblems": [
+            {
+                "Question": "What is a date?",
+                "Answer": "A specific point in time, typically expressed as day, month, and year.",
+                "Hint": "Think about the components and representation of dates.",
+                "Incorrect Response": "A duration of time.",
+                "Feedback": "While dates represent points in time, they are not durations of time; they consist of specific day, month, and year values."
+            },
+            {
+                "Question": "How can you extract dates from a string using regular expressions?",
+                "Answer": "By defining a regular expression pattern that matches the structure of a date.",
+                "Hint": "Consider how you can express the structure of a date using a regular expression.",
+                "Incorrect Response": "By using the split() function.",
+                "Feedback": "The split() function separates strings based on a delimiter; for extracting dates, define a regular expression pattern and use appropriate functions."
+            }
+        ],
+        "Facts": [
+            "A date is a specific point in time, typically expressed as day, month, and year.",
+            "To extract dates from a string using regular expressions, define a pattern that matches the structure of a date."
+        ],
+        "Solution": "The solution involves defining a function that takes a string as input, defines a regular expression pattern for dates, and extracts dates from the string using functions from the re module."
+    },
+    {
+        "Problem": "Write a Python program to validate credit card numbers using regular expressions.",
+        "SubProblems": [
+            {
+                "Question": "What are credit card numbers?",
+                "Answer": "Numeric codes assigned to credit cards that identify the card issuer and account.",
+                "Hint": "Think about the purpose and structure of credit card numbers.",
+                "Incorrect Response": "Alphanumeric passwords.",
+                "Feedback": "Credit card numbers are numeric codes used to identify credit cards and accounts; they are not alphanumeric passwords."
+            },
+            {
+                "Question": "How can you validate a credit card number using regular expressions?",
+                "Answer": "By defining a regular expression pattern that matches the structure of a valid credit card number.",
+                "Hint": "Consider how you can express the structure of a valid credit card number using a regular expression.",
+                "Incorrect Response": "By using the replace() function.",
+                "Feedback": "The replace() function replaces substrings in a string; for credit card number validation, define a regular expression pattern and use appropriate functions."
+            }
+        ],
+        "Facts": [
+            "Credit card numbers are numeric codes assigned to credit cards that identify the card issuer and account.",
+            "To validate credit card numbers using regular expressions, define a pattern that matches the structure of a valid credit card number."
+        ],
+        "Solution": "The solution involves defining a function that takes a credit card number as input, defines a regular expression pattern for valid credit card numbers, and checks if the input matches the pattern using functions from the re module."
+    }
+]
